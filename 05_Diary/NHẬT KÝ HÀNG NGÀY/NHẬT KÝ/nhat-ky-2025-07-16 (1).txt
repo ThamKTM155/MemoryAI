@@ -1,8 +1,0 @@
-📅 Ngày: 2025-07-16
-😊 Tâm trạng: Ổn
-
-📝 Nội dung:
-Sáng nay nhờ GPT dùng cho người Việt hướng dẫn triển khai dự án ThachAiAssistant lên nền tảng Netlify, làm gần xong thì được tin sét đánh "của nhóm phụ trách trên google driver là bị vi phạm điều khoản gì đó và họ cắm cờ vào sản phẩm" nên phải gỡ bỏ và lại phải làm lại từ bước tải ThachAiAssistant2 từ Google driver về làm từ bước giải nén và cài lại mã nguồn.
-
-📌 Việc cần làm:
-1. làm lại ThachAiAssistant trên Netlify
