@@ -1,5 +1,11 @@
 # 🧠 MemoryAI
 
+**Personal AI Memory Operating System**
+
+*Long-Term • Knowledge • AI*
+
+![Python](https://img.shields.io/badge/Python-3.11-blue) ![Version](https://img.shields.io/badge/Version-v1.0.0-orange) ![License](https://img.shields.io/badge/License-MIT-green) ![Status](https://img.shields.io/badge/BUILD--24-Stable-success)
+
 > **Personal AI Memory Operating System for Lifelong Knowledge Management**
 
 MemoryAI is a personal knowledge and memory operating system designed to preserve, organize, and retrieve lifelong information for AI assistants.
