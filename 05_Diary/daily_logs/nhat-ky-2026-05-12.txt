@@ -1,0 +1,158 @@
+Ngày: 2026-05-12
+Tâm trạng: Ổn định
+
+Công việc:
+Tuyệt vời anh 🌿
+Hôm nay ta sẽ đi theo kiểu:
+
+kỹ sư production chậm mà chắc.
+
+Không nhảy bước.
+Không refactor lớn.
+Không phá hệ thống đang sống.
+
+MỤC TIÊU HÔM NAY
+
+🎯 Tạo:
+
+“bản stable đầu tiên” của ThamAI
+
+để:
+
+sau này có lỗi còn quay về được
+không lạc giữa nhiều frontend/backend nữa.
+GIAI ĐOẠN A
+ĐÓNG BĂNG BẢN ĐANG CHẠY
+
+🌌 Đây là việc quan trọng nhất.
+
+BƯỚC A1
+KIỂM TRA CHAT LẦN CUỐI
+MỞ:
+
+ThachAI Frontend Fresh
+
+GỬI:
+Xin chào ThamAI
+NẾU AI TRẢ LỜI
+
+🎯 thì:
+
+xác nhận production còn sống.
+BƯỚC A2
+GHI NHỚ CẶP ĐANG HOẠT ĐỘNG
+FRONTEND:
+thach-ai-frontend-fresh
+BACKEND:
+thamai-backend-new
+AI PROVIDER:
+OpenRouter
+BƯỚC A3
+KHÔNG ĐỤNG TỚI
+
+⚠️ Tạm thời:
+
+không đổi backend
+không đổi cloud
+không đổi framework.
+
+🌿 Đây gọi là:
+
+freeze production.
+GIAI ĐOẠN B
+BACKUP CODE
+
+🎯 Giờ ta lưu checkpoint sống.
+
+BƯỚC B1
+VÀO GITHUB FRONTEND
+
+Repository:
+
+ThachAIFrontend_fresh
+BƯỚC B2
+TẠO FILE README.md
+
+Nếu chưa có.
+
+BƯỚC B3
+GHI TẠM
+# ThamAI Frontend Fresh
+
+Frontend production của hệ thống ThamAI.
+
+## Stack
+- HTML
+- CSS
+- JavaScript
+- Vercel Deploy
+
+## Backend đang sử dụng
+https://thamai-backend-new.onrender.com/chat
+
+## Trạng thái
+Production Stable V1
+BƯỚC B4
+COMMIT
+
+Ví dụ:
+
+Create frontend stable README
+GIAI ĐOẠN C
+BACKUP BACKEND
+
+🌌 Sau frontend,
+ta khóa backend.
+
+BƯỚC C1
+VÀO REPO BACKEND
+ThamAI_Backend_new
+BƯỚC C2
+TẠO README.md
+BƯỚC C3
+GHI:
+# ThamAI Backend New
+
+Backend AI production của ThamAI.
+
+## Stack
+- Flask
+- Render
+- OpenRouter API
+
+## Environment Variables
+
+OPENAI_API_KEY
+
+## API Route
+
+POST /chat
+
+GET /test
+
+## Trạng thái
+Production Stable V1
+BƯỚC C4
+COMMIT
+
+Ví dụ:
+
+Create backend stable README
+SAU KHI XONG 3 GIAI ĐOẠN NÀY
+
+🌌 Hệ thống của anh sẽ:
+
+có checkpoint
+có tài liệu
+có production stable đầu tiên.
+
+🎯 Và lúc đó ta mới bắt đầu:
+
+nâng giao diện
+thêm memory
+AI personality
+AutoYouTube integration.
+
+10000 chars
+
+Việc cần làm:

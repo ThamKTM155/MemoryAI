@@ -1,0 +1,28 @@
+Ngày: 2026-01-30
+Tâm trạng: Bình thường
+
+Công việc:
+📓 Nhật ký ngày 30/01/2026 – Dự án AutoYouTube
+
+Hoàn thiện và chạy thành công Dashboard Web theo dõi đa kênh bằng Streamlit.
+
+Khắc phục các lỗi:
+
+Thiếu module streamlit.
+
+Lỗi mã hóa Unicode khi đọc log.
+
+Lỗi thụt dòng (IndentationError) trong file dashboard.py.
+
+Dashboard hiện đã:
+
+Hiển thị số kênh, ngày, giờ hiện tại.
+
+Theo dõi trạng thái từng kênh.
+
+Đọc log và hiển thị nhật ký hệ thống.
+
+Làm mới giao diện ổn định.
+
+Việc cần làm:
+1. Ngày mai dự kiến tiếp tục:  Nâng cấp Dashboard lên bản đầy đủ (biểu đồ, lịch đăng, cảnh báo lỗi).  Triển khai tối ưu SEO tự động và luân phiên thể loại thông minh.

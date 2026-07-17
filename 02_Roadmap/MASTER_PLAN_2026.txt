@@ -1,0 +1,205 @@
+AUTOYOUTUBE + THAMAI MASTER PLAN
+Ngày cập nhật: 12-06-2026
+
+=================================================
+GIAI ĐOẠN ĐÃ HOÀN THÀNH
+=======================
+
+1. AutoYouTube Production
+
+Hoàn thành:
+
+* Script Engine V80
+* Hook Engine
+* Voice Generation
+* Render Video
+* Upload YouTube
+* Multi Channel
+* Analytics cơ bản
+
+Trạng thái:
+
+PRODUCTION STABLE
+
+---
+
+2. ThamAI
+
+Hoàn thành:
+
+* Frontend Vercel
+* Backend Render
+* OpenRouter
+* Chat Production
+
+Trạng thái:
+
+ONLINE STABLE
+
+---
+
+3. Kênh YouTube
+
+KENH1:
+Triết lý sống
+
+KENH2:
+Kỷ luật
+
+KENH3:
+Healing
+
+KENH4:
+Tài chính
+
+Trạng thái:
+
+Đang hoạt động
+
+=================================================
+NHỮNG THỨ KHÔNG ĐƯỢC PHÉP ĐỤNG TỚI
+==================================
+
+Không refactor lớn.
+
+Không đổi cấu trúc thư mục.
+
+Không sửa Script Engine V80 nếu không có lỗi.
+
+Không sửa Upload System nếu đang upload được.
+
+Không sửa Render System nếu đang render được.
+
+Không sửa Pipeline nếu không có lỗi thật.
+
+=================================================
+MỤC TIÊU GIAI ĐOẠN TIẾP THEO
+============================
+
+Ưu tiên 1
+
+Dashboard thật
+
+Mục tiêu:
+
+Hiển thị:
+
+* 4 kênh
+* View
+* Retention
+* Video mới nhất
+* Hook thắng
+* Title thắng
+
+Thời gian:
+
+2-5 ngày
+
+---
+
+Ưu tiên 2
+
+Winner Hook AI
+
+Mục tiêu:
+
+Lưu:
+
+* Hook
+* View
+* Retention
+
+Tự học từ dữ liệu thắng.
+
+Thời gian:
+
+1-2 tuần
+
+---
+
+Ưu tiên 3
+
+Winner Title AI
+
+Mục tiêu:
+
+Lưu:
+
+* Title
+* View
+* Retention
+
+Tự học title thắng.
+
+Thời gian:
+
+1 tuần
+
+---
+
+Ưu tiên 4
+
+Memory AI
+
+Mục tiêu:
+
+Cho ThamAI đọc:
+
+* projects.txt
+* goals.txt
+* journal.txt
+* daily_logs
+
+Trả lời được:
+
+* Đã làm gì
+* Đang làm gì
+* Nên làm gì tiếp
+
+Thời gian:
+
+1-2 tuần
+
+=================================================
+MỤC TIÊU CUỐI CÙNG
+==================
+
+Xây dựng hệ sinh thái AI cá nhân gồm:
+
+1. AutoYouTube Factory
+
+Tự sản xuất video.
+
+2. ThamAI Assistant
+
+Trợ lý AI cá nhân.
+
+3. Memory AI
+
+Ghi nhớ toàn bộ lịch sử làm việc.
+
+4. Gia Phả AI
+
+Lưu giữ tri thức gia đình.
+
+5. AI Manager
+
+Theo dõi toàn bộ hệ thống.
+
+=================================================
+NGUYÊN TẮC
+==========
+
+Sức khỏe ưu tiên hơn tiến độ.
+
+Không chạy theo tính năng mới.
+
+Ổn định quan trọng hơn thông minh.
+
+Dữ liệu thật quan trọng hơn lý thuyết.
+
+Mỗi lần chỉ nâng cấp một thứ.
+
+=================================================
+END
+===

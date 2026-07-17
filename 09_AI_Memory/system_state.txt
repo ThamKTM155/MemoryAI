@@ -1,0 +1,38 @@
+AutoYouTube V22
+Production Stable
+
+4 kênh
+
+Hook Pool mới
+
+Winner Hook AI:
+Chưa triển khai
+
+----------------------------------------------------------------
+Ngày: 12-06-2026
+
+AUTOYOUTUBE CURRENT STATE
+
+Entry Point:
+main.py
+
+Scheduler đang dùng:
+modules\scheduler.py
+
+Pipeline:
+core\pipeline.py
+
+Script Engine:
+modules\script_engine_v80.py
+
+Hook Engine:
+modules\micro_story_hook_engine.py
+
+Task Scheduler:
+AutoYouTube (Running)
+
+Không sử dụng:
+core\scheduler.py
+
+Ghi chú:
+Không xóa file cũ nếu chưa xác nhận 100%.

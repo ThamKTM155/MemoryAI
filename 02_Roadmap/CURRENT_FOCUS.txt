@@ -1,0 +1,16 @@
+HIỆN ĐANG TẬP TRUNG
+
+1. Dashboard thật
+
+2. Winner Hook AI
+
+3. Winner Title AI
+
+4. Memory AI
+
+KHÔNG ĐƯỢC ĐỤNG
+
+- Script Engine V80
+- Pipeline
+- Upload
+- Render

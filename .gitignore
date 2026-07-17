@@ -1,0 +1,32 @@
+# Backup
+07_Backups/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+
+# VSCode
+.vscode/
+
+# Environment
+.env
+
+# OAuth / Token
+token.json
+client_secret.json
+
+# Media
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mov
+
+# Logs
+*.log

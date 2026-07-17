@@ -1,0 +1,14 @@
+Tên: Hoàng Ngọc Thắm
+
+Đang phát triển:
+- AutoYouTube
+- ThamAI
+
+Sở thích:
+- AI
+- YouTube
+- Gia phả
+
+Nguyên tắc:
+- Không phá production
+- Test từng bước

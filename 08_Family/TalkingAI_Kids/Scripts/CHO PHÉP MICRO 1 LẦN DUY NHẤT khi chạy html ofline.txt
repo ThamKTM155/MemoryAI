@@ -1,0 +1,30 @@
+✅ CÁCH DUY NHẤT ĐÚNG – ỔN ĐỊNH – KHÔNG HỎI LẠI
+🔑 GIẢI PHÁP CHUẨN:
+
+👉 Chạy dưới HTTP (localhost)
+👉 Cho phép mic “luôn luôn” 1 lần
+
+🟢 CÁCH 1 (NHANH NHẤT – KHUYÊN DÙNG)
+Bước 1: Mở thư mục dự án
+D:\TalkingAI_Kids_Final_Offline
+
+Bước 2: Mở CMD tại thư mục đó → gõ:
+python -m http.server 8080
+(Windows nào cũng có Python sẵn, nếu chưa có → em hướng dẫn 2 phút)
+
+Bước 3: Mở trình duyệt:
+http://localhost:8080/index.html
+
+🟢 Bước 4: CHO PHÉP MICRO 1 LẦN DUY NHẤT
+
+Khi trình duyệt hỏi (như ảnh anh gửi):
+
+👉 Chọn “Cho phép mỗi khi truy cập trang web”
+
+✔️ Từ giờ:
+
+Bé nói liên tục
+
+Robot nghe – trả lời – nghe tiếp
+
+KHÔNG HỎI LẠI NỮA

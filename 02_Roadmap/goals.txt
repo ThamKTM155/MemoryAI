@@ -1,0 +1,64 @@
+=================================================
+THAMAI MASTER GOALS
+=================================================
+
+Người sở hữu:
+Hoàng Ngọc Thắm
+
+Ngày bắt đầu:
+28-05-2025
+
+-------------------------------------------------
+MỤC TIÊU DÀI HẠN
+-------------------------------------------------
+
+1. Xây dựng trợ lý AI cá nhân hoàn chỉnh.
+
+2. Xây dựng hệ sinh thái AI riêng gồm:
+
+- ThamAI
+- AutoYouTube
+- Memory AI
+- Gia Phả AI
+- Kho Tri Thức Cá Nhân
+
+3. Sử dụng AI hỗ trợ:
+
+- Học tập
+- Nghiên cứu
+- Lập trình
+- Làm phim
+- YouTube
+- Quản lý tri thức
+
+4. Tạo nguồn thu nhập bền vững từ AI.
+
+5. Lưu giữ tri thức gia đình cho thế hệ sau.
+
+-------------------------------------------------
+MỤC TIÊU HIỆN TẠI
+-------------------------------------------------
+
+1. Ổn định AutoYouTube V22.
+
+2. Phát triển ThamAI Assistant.
+
+3. Thu thập dữ liệu thật từ YouTube.
+
+4. Xây Winner Hook AI.
+
+5. Xây Winner Title AI.
+
+-------------------------------------------------
+NGUYÊN TẮC LÀM VIỆC
+-------------------------------------------------
+
+- Không phá Production.
+- Test từng bước.
+- Ưu tiên ổn định.
+- Có backup trước khi sửa.
+- Học từ dữ liệu thật.
+
+=================================================
+END
+=================================================

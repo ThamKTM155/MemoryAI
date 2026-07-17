@@ -1,0 +1,109 @@
+PROJECTS
+
+=================================================
+
+1. AutoYouTube
+   =================================================
+
+Mục tiêu:
+Tự động tạo, render và upload video YouTube.
+
+Trạng thái:
+Production Stable
+
+Phiên bản hiện tại:
+AutoYouTube V22
+
+Hướng phát triển:
+
+* Winner Hook AI
+* Winner Title AI
+* AI Learning System
+
+---
+
+2. ThamAI
+   =================================================
+
+Mục tiêu:
+Trợ lý AI cá nhân.
+
+Trạng thái:
+Online Production
+
+Thành phần:
+
+* Frontend (Vercel)
+* Backend (Render)
+* OpenRouter AI
+
+Hướng phát triển:
+
+* Memory AI
+* AI Manager
+* Personal Assistant
+
+---
+
+3. Memory AI
+   =================================================
+
+Mục tiêu:
+
+Lưu trữ và ghi nhớ:
+
+* Nhật ký
+* Dự án
+* Mục tiêu
+* Tri thức cá nhân
+
+Trạng thái:
+
+Đang xây dựng
+
+---
+
+4. Gia Phả AI
+   =================================================
+
+Mục tiêu:
+
+Lưu giữ:
+
+* Gia phả
+* Hình ảnh
+* Tư liệu gia đình
+* Lịch sử dòng họ
+
+Trạng thái:
+
+Chưa triển khai
+
+---
+
+5. TalkingAI
+   =================================================
+
+Mục tiêu:
+
+Tạo nội dung giáo dục và giải trí bằng AI.
+
+Trạng thái:
+
+Lưu trữ và nghiên cứu.
+====================================================
+ACTIVE ( HOẠT ĐỘNG  ):
+AutoYouTube V22
+MemoryAI
+====================================================
+MAINTENANCE (BẢO TRÌ)
+ThamAI
+===================================================
+HIBERNATED (ĐANG NGỦ ĐÔNG)
+TalkingAI Kids
+YouTubeUploader
+
+
+=================================================
+END
+===

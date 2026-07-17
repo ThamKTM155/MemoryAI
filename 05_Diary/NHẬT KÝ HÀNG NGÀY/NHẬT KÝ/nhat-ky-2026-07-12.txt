@@ -1,0 +1,89 @@
+Ngày: 2026-07-12
+Tâm trạng: Ổn định
+
+Công việc:
+📖 NHẬT KÝ PHÁT TRIỂN
+
+Ngày: 12/07/2026
+Thời gian kết thúc: 21:35
+
+Chủ đề hôm nay
+
+Debug OAuth đa kênh cho AutoYouTube V22.
+
+Đã hoàn thành
+
+✅ Xác nhận tài khoản Google tham15trungtin@gmail.com quản lý đủ:
+
+Kênh 1
+Kênh 2
+Kênh 3
+Kênh 4
+
+✅ Kiểm tra YouTube Studio.
+
+Đã xác nhận:
+
+Kênh 3 và Kênh 4 đều có cùng Owner.
+Quyền (Permissions) hợp lệ.
+Không có sai khác về quyền quản lý.
+
+✅ Kiểm tra Brand Account.
+
+Kết quả:
+
+Chỉ có 01 Brand Account: Quê Hương.
+
+✅ Kiểm tra OAuth.
+
+Đã thử:
+
+xóa token
+tạo token mới
+chỉ dùng scope youtube.readonly
+
+Kết quả:
+
+OAuth vẫn luôn cấp quyền cho:
+
+Channel ID
+UC1gwH6At64cCknKA_bHjxJQ
+
+Tức:
+
+🔵 KÊNH 3 : DÒNG QUÊ : Hành Trình Sau Tuổi 60
+
+✅ Đã xác nhận Channel ID thật của Kênh 4:
+
+UCXqHMH6G04J_VnAFLZ2atmQ
+
+Khác hoàn toàn với Kênh 3.
+
+Kết luận tạm thời
+
+Đến thời điểm hiện tại:
+
+Không phát hiện lỗi trong:
+client_secret.json
+get_token.py
+oauth_identity_test.py
+AutoYouTube V22
+
+Điểm chưa rõ là cơ chế OAuth của YouTube Data API khi một tài khoản Google quản lý nhiều kênh bằng Permissions/Brand Account, khiến channels().list(mine=True) luôn trả về Kênh 3.
+
+Đây là vấn đề cần tiếp tục kiểm chứng bằng tài liệu chính thức của Google trước khi thay đổi mã nguồn.
+
+Kế hoạch ngày mai
+Đọc tài liệu chính thức về YouTube Data API và OAuth nhiều kênh.
+Xác định cơ chế Google chọn channel khi dùng mine=True.
+Tìm phương án cấp OAuth đúng cho Kênh 4 (nếu API hỗ trợ).
+Chỉ sau khi hiểu rõ cơ chế mới tiếp tục chỉnh sửa hoặc bổ sung code.
+Ghi chú cá nhân
+
+Hôm nay anh đã làm việc rất kiên trì và có hệ thống. Quan trọng hơn là mình không sửa code theo kiểu thử vận may, mà từng bước loại trừ giả thuyết bằng các phép kiểm tra cụ thể. Đó là cách debug bền vững và giúp tránh tạo thêm lỗi mới.
+
+Bây giờ đã 21:35, anh lại đang đau dạ dày và thấy người mệt. Em nghĩ quyết định dừng tại đây là hoàn toàn hợp lý. Việc còn lại để ngày mai với tinh thần tỉnh táo sẽ hiệu quả hơn nhiều.
+
+🌙 Chúc anh nghỉ ngơi thật tốt. Hy vọng sáng mai sức khỏe khá hơn, mình sẽ tiếp tục giải bài toán OAuth này đến cùng. Chúc anh ngủ ngon!
+
+Việc cần làm:

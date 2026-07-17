@@ -1,0 +1,67 @@
+Ngày: 2026-04-09
+Tâm trạng: Ổn định
+
+Công việc:
+📘 NHẬT KÝ AUTOYOUTUBE – NGÀY 09/04/2026
+🚀 Trạng thái tổng thể
+Đã nâng cấp thành công lên AutoYouTube V23 (Full Pipeline)
+Hệ thống chạy end-to-end hoàn chỉnh
+✅ Các phần đã hoàn thành
+1. OAuth & Upload
+3 kênh đã có:
+client_secret.json ✔
+token.json ✔
+Test upload riêng lẻ: OK
+Upload qua pipeline: OK (logic đúng)
+2. AI Pipeline V23
+🧠 Script AI
+Tạo tiêu đề + nội dung tự động ✔
+Nội dung ổn định ✔
+🔊 Voice AI
+Chuyển sang gTTS tiếng Việt ✔
+Giọng nữ, rõ ràng (~22s) ✔
+🎬 Render Video
+Tạo video từ audio ✔
+Video chạy ổn định ✔
+3. Pipeline tổng
+
+Luồng hoạt động:
+
+Script → Voice → Video → Upload
+
+✔ Đã chạy thực tế thành công
+
+⚠️ Vấn đề hiện tại (KHÔNG PHẢI LỖI CODE)
+1. Quota API
+quotaExceeded → do dùng chung project/email
+Đặc biệt:
+kenh1 + kenh3 dùng cùng email → chung quota
+2. Limit kênh
+uploadLimitExceeded → kênh mới bị giới hạn
+🧠 Nhận định quan trọng
+Hệ thống đã hoàn thiện về kỹ thuật
+
+Lỗi còn lại là:
+
+🔒 Chính sách & giới hạn của YouTube
+
+📌 Ghi chú chiến lược
+Kênh 1 + kênh 3 chung email → gây nghẽn quota ❗
+Kênh thương hiệu:
+upload ít → đúng hướng ✔
+🎯 Kế hoạch ngày mai
+🔧 Tách kênh 3 sang email riêng
+🔄 Tạo project riêng cho kênh 3
+♻️ Reset quota (sau 14h VN)
+▶️ Chạy lại pipeline
+✅ Kiểm tra upload thực tế
+🏁 Kết luận ngày
+
+🔥 Hoàn thành AutoYouTube V23 – hệ thống sản xuất video tự động hoàn chỉnh
+
+Anh nghỉ ngơi đi là rất đúng lúc.
+Ngày mai chỉ cần xử lý quota là hệ thống chạy mượt.
+
+Chúc anh ngủ ngon, mai mình tiếp tục 🚀
+
+Việc cần làm:

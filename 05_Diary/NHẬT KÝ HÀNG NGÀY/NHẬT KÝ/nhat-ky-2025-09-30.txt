@@ -1,0 +1,14 @@
+Ngày: 2025-09-30
+Tâm trạng: Bình thường
+
+Công việc:
+Hôm nay chuyển sang ChatGPT trên Egde, trên nền tảng này thấy ChatGPT có vẻ thông minh hơn 
+và khi đánh máy trong ô chát không bị dính chữ như ô chát của ChatGPT người Việt. Mình đang nhờ 
+ChatGPT của Copilot hướng dẫn làm được phần bảo mật cho Bách cần 
+ https://github.com/ThamKTM155/ThamAI_monorepo_backend/tree/main
+ và https://github.com/ThamKTM155/ThamAI_Backend_new/tree/main. Vì lý do về An khê giỗ mẹ vợ nên 
+phải dừng ở đây. Hy vọng khi trở lại xem nhật ký này sẽ biết mình nên tiếp tục từ chổ nào!
+
+Việc cần làm:
+1. Khi quay lại thì tiếp tục hoàn thiện bách cần ThamAI_Backend_new và ThamAI_monorepo_backend 
+của dự án ThamAI_monorepo

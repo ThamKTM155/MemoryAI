@@ -1,0 +1,24 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="Generator" content="Microsoft Windows Media Player -- 12.0.19041.1387"/>
+    </head>
+    <body>
+        <seq>
+            <smartPlaylist version="1.0.0.0">
+                <querySet>
+                    <sourceFilter id="{4202947A-A563-4B05-A754-A1B4B5989849}" name="Nhạc trong thư viện của tôi">
+                        <fragment name="Album Artist">
+                            <argument name="condition">Is</argument>
+                            <argument name="value">&lt;Không biết&gt;</argument>
+                        </fragment>
+                        <fragment name="Album Title">
+                            <argument name="condition">Is</argument>
+                            <argument name="value">&lt;Không biết&gt;</argument>
+                        </fragment>
+                    </sourceFilter>
+                </querySet>
+            </smartPlaylist>
+        </seq>
+    </body>
+</smil>

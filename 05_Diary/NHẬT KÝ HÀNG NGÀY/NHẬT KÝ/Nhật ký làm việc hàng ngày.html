@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- saved from url=(0084)file:///D:/NG%E1%BB%8CC%20TH%E1%BA%AEM/%C4%90%E1%BB%92%20C%C5%A8/nhatky_nangcap.html -->
+<html lang="vi"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Nhật ký làm việc hàng ngày</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f1f4f8;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 20px;
+        }
+        input[type="date"], textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        textarea {
+            resize: vertical;
+            height: 120px;
+        }
+        .todo-list input[type="text"] {
+            width: 80%;
+            margin-right: 5px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .image {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .image img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Nhật ký làm việc cá nhân</h1>
+
+        <label for="date">📅 Chọn ngày:</label>
+        <input type="date" id="date">
+
+        <label for="mood">😊 Tâm trạng hôm nay:</label>
+        <select id="mood">
+            <option value="Tuyệt vời">Tuyệt vời 😄</option>
+            <option value="Ổn định">Ổn định 🙂</option>
+            <option value="Bình thường">Bình thường 😐</option>
+            <option value="Mệt mỏi">Mệt mỏi 😞</option>
+            <option value="Căng thẳng">Căng thẳng 😣</option>
+        </select>
+
+        <label for="entry">🧾 Nội dung công việc hôm nay:</label>
+        <textarea id="entry" placeholder="Hôm nay tôi đã làm những gì?..."></textarea>
+
+        <h2>✅ Việc cần làm</h2>
+        <div class="todo-list">
+            <input type="text" id="todoInput" placeholder="Thêm việc cần làm...">
+            <button onclick="addTodo()">➕ Thêm</button>
+            <ul id="todoList"></ul>
+        </div>
+
+        <button onclick="saveEntry()">💾 Lưu nhật ký</button>
+
+        <div class="image">
+            <img src="./Nhật ký làm việc hàng ngày_files/diary-925589_960_720.jpg" alt="Ảnh minh hoạ nhật ký">
+        </div>
+    </div>
+
+    <script>
+        const todoList = [];
+
+        function addTodo() {
+            const input = document.getElementById("todoInput");
+            if (input.value.trim() !== "") {
+                todoList.push(input.value.trim());
+                updateTodoList();
+                input.value = "";
+            }
+        }
+
+        function updateTodoList() {
+            const ul = document.getElementById("todoList");
+            ul.innerHTML = "";
+            todoList.forEach(item => {
+                const li = document.createElement("li");
+                li.textContent = item;
+                ul.appendChild(li);
+            });
+        }
+
+        function saveEntry() {
+            const date = document.getElementById("date").value;
+            const mood = document.getElementById("mood").value;
+            const entry = document.getElementById("entry").value;
+            if (!date || !entry) {
+                alert("Vui lòng nhập ngày và nội dung công việc!");
+                return;
+            }
+            let content = `Ngày: ${date}\nTâm trạng: ${mood}\n\nCông việc:\n${entry}\n\nViệc cần làm:\n`;
+            content += todoList.map((item, index) => `${index + 1}. ${item}`).join("\n");
+
+            const blob = new Blob([content], { type: "text/plain;charset=utf-8" });
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = `nhat-ky-${date}.txt`;
+            link.click();
+        }
+    </script>
+
+
+</body></html>

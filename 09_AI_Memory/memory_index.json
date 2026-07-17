@@ -1,0 +1,434 @@
+{
+    "CHANGELOG": [
+        {
+            "file": "CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\CHANGELOG.md",
+            "folder": "09_AI_Memory"
+        },
+        {
+            "file": "CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "._DESIGN_PHILOSOPHY": [
+        {
+            "file": "._DESIGN_PHILOSOPHY.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\00_Foundation\\._DESIGN_PHILOSOPHY.md",
+            "folder": "00_Foundation"
+        }
+    ],
+    "DESIGN_PHILOSOPHY": [
+        {
+            "file": "DESIGN_PHILOSOPHY.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\00_Foundation\\DESIGN_PHILOSOPHY.md",
+            "folder": "00_Foundation"
+        }
+    ],
+    "ROOT_DESIGN_PHILOSOPHY": [
+        {
+            "file": "ROOT_DESIGN_PHILOSOPHY.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\00_Foundation\\ROOT_DESIGN_PHILOSOPHY.md",
+            "folder": "00_Foundation"
+        }
+    ],
+    "._CHANGELOG": [
+        {
+            "file": "._CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\._CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "._PROJECT_HISTORY": [
+        {
+            "file": "._PROJECT_HISTORY.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\._PROJECT_HISTORY.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_AI Roadmap_CHANGELOG": [
+        {
+            "file": "ai_modules_AI Roadmap_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_AI Roadmap_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_analytics_AI Module 005_CHANGELOG": [
+        {
+            "file": "ai_modules_analytics_AI Module 005_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_analytics_AI Module 005_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_analytics_AI Module 006_CHANGELOG": [
+        {
+            "file": "ai_modules_analytics_AI Module 006_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_analytics_AI Module 006_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_core_AI Core Manager V1_CHANGELOG": [
+        {
+            "file": "ai_modules_core_AI Core Manager V1_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_core_AI Core Manager V1_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_Decision AI_AI Module 010_CHANGELOG": [
+        {
+            "file": "ai_modules_Decision AI_AI Module 010_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_Decision AI_AI Module 010_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_Decision AI_AI Module 010_PROJECT_HISTORY": [
+        {
+            "file": "ai_modules_Decision AI_AI Module 010_PROJECT_HISTORY.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_Decision AI_AI Module 010_PROJECT_HISTORY.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_interface_AI Interface V1_CHANGELOG": [
+        {
+            "file": "ai_modules_interface_AI Interface V1_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_interface_AI Interface V1_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_learning_AI Module 009_CHANGELOG": [
+        {
+            "file": "ai_modules_learning_AI Module 009_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_learning_AI Module 009_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_learning_AI Module 009_PROJECT_HISTORY": [
+        {
+            "file": "ai_modules_learning_AI Module 009_PROJECT_HISTORY.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_learning_AI Module 009_PROJECT_HISTORY.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_performance_AI Module 007_CHANGELOG": [
+        {
+            "file": "ai_modules_performance_AI Module 007_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_performance_AI Module 007_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_scene_memory_AI Module 001_CHANGELOG": [
+        {
+            "file": "ai_modules_scene_memory_AI Module 001_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_scene_memory_AI Module 001_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_scene_memory_AI Module 002_CHANGELOG": [
+        {
+            "file": "ai_modules_scene_memory_AI Module 002_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_scene_memory_AI Module 002_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_scene_memory_AI Module 003_CHANGELOG": [
+        {
+            "file": "ai_modules_scene_memory_AI Module 003_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_scene_memory_AI Module 003_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_Strategy Memory_AI Module 011_CHANGELOG": [
+        {
+            "file": "ai_modules_Strategy Memory_AI Module 011_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_Strategy Memory_AI Module 011_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_Strategy Memory_AI Module 011_PROJECT_HISTORY": [
+        {
+            "file": "ai_modules_Strategy Memory_AI Module 011_PROJECT_HISTORY.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_Strategy Memory_AI Module 011_PROJECT_HISTORY.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_video_memory_AI Module 004_CHANGELOG": [
+        {
+            "file": "ai_modules_video_memory_AI Module 004_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_video_memory_AI Module 004_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_video_memory_AI Module 004_PROJECT_HISTORY": [
+        {
+            "file": "ai_modules_video_memory_AI Module 004_PROJECT_HISTORY.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_video_memory_AI Module 004_PROJECT_HISTORY.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_winner_ai_AI Module 008_CHANGELOG": [
+        {
+            "file": "ai_modules_winner_ai_AI Module 008_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_winner_ai_AI Module 008_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ai_modules_winner_ai_AI Module 008_PROJECT_HISTORY": [
+        {
+            "file": "ai_modules_winner_ai_AI Module 008_PROJECT_HISTORY.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ai_modules_winner_ai_AI Module 008_PROJECT_HISTORY.md",
+            "folder": "01_History"
+        }
+    ],
+    "docs_AI Architecture V1_CHANGELOG": [
+        {
+            "file": "docs_AI Architecture V1_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\docs_AI Architecture V1_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "docs_AI Core Freeze V1_CHANGELOG": [
+        {
+            "file": "docs_AI Core Freeze V1_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\docs_AI Core Freeze V1_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "docs_AI Integration V1_CHANGELOG": [
+        {
+            "file": "docs_AI Integration V1_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\docs_AI Integration V1_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "docs_PROJECT MILESTONES_PROJECT_HISTORY": [
+        {
+            "file": "docs_PROJECT MILESTONES_PROJECT_HISTORY.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\docs_PROJECT MILESTONES_PROJECT_HISTORY.md",
+            "folder": "01_History"
+        }
+    ],
+    "PROJECT_HISTORY": [
+        {
+            "file": "PROJECT_HISTORY.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\PROJECT_HISTORY.md",
+            "folder": "01_History"
+        }
+    ],
+    "ROOT_CHANGELOG": [
+        {
+            "file": "ROOT_CHANGELOG.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ROOT_CHANGELOG.md",
+            "folder": "01_History"
+        }
+    ],
+    "ROOT_PROJECT_HISTORY": [
+        {
+            "file": "ROOT_PROJECT_HISTORY.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\01_History\\ROOT_PROJECT_HISTORY.md",
+            "folder": "01_History"
+        }
+    ],
+    "._SYSTEM_FREEZE": [
+        {
+            "file": "._SYSTEM_FREEZE.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\04_System\\._SYSTEM_FREEZE.md",
+            "folder": "04_System"
+        }
+    ],
+    "ai_modules_Decision AI_AI Module 010_SYSTEM_FREEZE": [
+        {
+            "file": "ai_modules_Decision AI_AI Module 010_SYSTEM_FREEZE.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\04_System\\ai_modules_Decision AI_AI Module 010_SYSTEM_FREEZE.md",
+            "folder": "04_System"
+        }
+    ],
+    "ai_modules_learning_AI Module 009_SYSTEM_FREEZE": [
+        {
+            "file": "ai_modules_learning_AI Module 009_SYSTEM_FREEZE.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\04_System\\ai_modules_learning_AI Module 009_SYSTEM_FREEZE.md",
+            "folder": "04_System"
+        }
+    ],
+    "ai_modules_Strategy Memory_AI Module 011_SYSTEM_FREEZE": [
+        {
+            "file": "ai_modules_Strategy Memory_AI Module 011_SYSTEM_FREEZE.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\04_System\\ai_modules_Strategy Memory_AI Module 011_SYSTEM_FREEZE.md",
+            "folder": "04_System"
+        }
+    ],
+    "ai_modules_video_memory_AI Module 004_SYSTEM_FREEZE": [
+        {
+            "file": "ai_modules_video_memory_AI Module 004_SYSTEM_FREEZE.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\04_System\\ai_modules_video_memory_AI Module 004_SYSTEM_FREEZE.md",
+            "folder": "04_System"
+        }
+    ],
+    "ai_modules_winner_ai_AI Module 008_SYSTEM_FREEZE": [
+        {
+            "file": "ai_modules_winner_ai_AI Module 008_SYSTEM_FREEZE.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\04_System\\ai_modules_winner_ai_AI Module 008_SYSTEM_FREEZE.md",
+            "folder": "04_System"
+        }
+    ],
+    "ROOT_SYSTEM_FREEZE": [
+        {
+            "file": "ROOT_SYSTEM_FREEZE.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\04_System\\ROOT_SYSTEM_FREEZE.md",
+            "folder": "04_System"
+        }
+    ],
+    "SYSTEM_FREEZE": [
+        {
+            "file": "SYSTEM_FREEZE.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\04_System\\SYSTEM_FREEZE.md",
+            "folder": "04_System"
+        }
+    ],
+    "._README": [
+        {
+            "file": "._README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\._README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_AI Roadmap_README": [
+        {
+            "file": "ai_modules_AI Roadmap_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_AI Roadmap_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_analytics_AI Module 005_README": [
+        {
+            "file": "ai_modules_analytics_AI Module 005_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_analytics_AI Module 005_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_analytics_AI Module 006_README": [
+        {
+            "file": "ai_modules_analytics_AI Module 006_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_analytics_AI Module 006_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_core_AI Core Manager V1_README": [
+        {
+            "file": "ai_modules_core_AI Core Manager V1_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_core_AI Core Manager V1_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_Decision AI_AI Module 010_README": [
+        {
+            "file": "ai_modules_Decision AI_AI Module 010_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_Decision AI_AI Module 010_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_interface_AI Interface V1_README": [
+        {
+            "file": "ai_modules_interface_AI Interface V1_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_interface_AI Interface V1_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_learning_AI Module 009_README": [
+        {
+            "file": "ai_modules_learning_AI Module 009_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_learning_AI Module 009_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_performance_AI Module 007_README": [
+        {
+            "file": "ai_modules_performance_AI Module 007_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_performance_AI Module 007_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_scene_memory_AI Module 001_README": [
+        {
+            "file": "ai_modules_scene_memory_AI Module 001_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_scene_memory_AI Module 001_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_scene_memory_AI Module 002_README": [
+        {
+            "file": "ai_modules_scene_memory_AI Module 002_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_scene_memory_AI Module 002_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_scene_memory_AI Module 003_README": [
+        {
+            "file": "ai_modules_scene_memory_AI Module 003_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_scene_memory_AI Module 003_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_Strategy Memory_AI Module 011_README": [
+        {
+            "file": "ai_modules_Strategy Memory_AI Module 011_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_Strategy Memory_AI Module 011_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_video_memory_AI Module 004_README": [
+        {
+            "file": "ai_modules_video_memory_AI Module 004_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_video_memory_AI Module 004_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ai_modules_winner_ai_AI Module 008_README": [
+        {
+            "file": "ai_modules_winner_ai_AI Module 008_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ai_modules_winner_ai_AI Module 008_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "docs_AI Architecture V1_README": [
+        {
+            "file": "docs_AI Architecture V1_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\docs_AI Architecture V1_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "docs_AI Core Freeze V1_README": [
+        {
+            "file": "docs_AI Core Freeze V1_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\docs_AI Core Freeze V1_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "docs_AI Integration V1_README": [
+        {
+            "file": "docs_AI Integration V1_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\docs_AI Integration V1_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "docs_PROJECT MILESTONES_README": [
+        {
+            "file": "docs_PROJECT MILESTONES_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\docs_PROJECT MILESTONES_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "README": [
+        {
+            "file": "README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\README.md",
+            "folder": "05_Memory_Index"
+        }
+    ],
+    "ROOT_README": [
+        {
+            "file": "ROOT_README.md",
+            "path": "D:\\MemoryAI\\09_AI_Memory\\05_Memory_Index\\ROOT_README.md",
+            "folder": "05_Memory_Index"
+        }
+    ]
+}

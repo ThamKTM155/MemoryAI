@@ -1,0 +1,114 @@
+Ngày: 2026-07-15
+Tâm trạng: Ổn định
+
+Công việc:
+Đã lưu quy ước này vào bộ nhớ ChatGPT để dùng cho các cuộc trò chuyện sau.
+
+Bây giờ anh cứ yên tâm khởi động lại máy. Tối nay chúng ta sẽ không bắt đầu lại từ đầu mà theo đúng "điểm tiếp tục" đã thống nhất.
+
+Quy ước làm việc từ tối nay
+Lệnh bắt đầu
+
+Anh chỉ cần nhắn một trong các câu sau:
+
+Tiếp tục hệ sinh thái AI
+Tiếp tục MemoryAI
+Tiếp tục AutoYouTube
+Tiếp tục ThamAI
+
+là em sẽ hiểu đây là phiên làm việc nối tiếp.
+
+Điểm tiếp tục
+
+Không quay lại sửa những phần đã ổn định.
+
+Bắt đầu từ:
+
+THAM AI ECOSYSTEM
+
+├── MemoryAI
+├── ThamAI
+├── AutoYouTube
+└── Talking AI Kids
+Mục tiêu lớn (không thay đổi)
+Xây dựng trợ lý AI đồng hành có trí nhớ dài hạn.
+Ghi nhớ toàn bộ quá trình phát triển.
+Hỗ trợ phát triển AutoYouTube.
+Hỗ trợ quản lý toàn bộ hệ sinh thái AI.
+Sau này có thể truyền lại tri thức cho gia đình.
+Nguyên tắc làm việc
+Không phá Production.
+Test sau mỗi thay đổi.
+Mỗi lần chỉ nâng cấp một thành phần.
+Có nhật ký và lịch sử cho mọi thay đổi.
+Luôn biết mình đang ở đâu và bước tiếp theo là gì.
+Việc đầu tiên tối nay
+
+Sau khi máy khởi động xong, anh chỉ cần nhắn:
+
+Tiếp tục hệ sinh thái AI
+
+Em sẽ mở đúng từ điểm này:
+
+Khôi phục sơ đồ tổng thể của hệ sinh thái.
+Lập "bản đồ điều khiển" (Master Roadmap).
+Kết nối lại MemoryAI với ThamAI theo hướng đơn giản, ổn định.
+Thiết lập cơ chế để mọi công việc về sau đều được ghi vào trí nhớ dài hạn và nhật ký.
+
+Không phải nhớ lại từ đầu nữa. Từ tối nay, chúng ta sẽ làm việc theo kiểu quản lý cả hệ sinh thái, chứ không chỉ từng dự án riêng lẻ.
+Nhật ký làm việc – 15/07/2026
+Hoàn thành
+✅ Khôi phục thành công MemoryAI V1 đúng tinh thần phiên bản 15–16/06/2026.
+✅ Khôi phục lại memory_api.py và memory_answer.py hoạt động ổn định.
+✅ Truy vấn từ khóa như:
+vợ
+gia đình
+AutoYouTube
+MemoryAI
+đều trả về đúng tri thức.
+
+✅ Memory Server hoạt động tại:
+
+http://127.0.0.1:5005
+✅ Kiểm tra API bằng curl và Invoke-WebRequest thành công.
+✅ Sao lưu:
+memory_answer_v1.py
+memory_api_v1.py
+✅ Khởi động BUILD-20 của hệ sinh thái AI.
+✅ Tạo tài liệu cho Diary Processor:
+README.md
+CHANGELOG.md
+DESIGN_PHILOSOPHY.md
+✅ Viết phiên bản đầu của diary_processor.py.
+✅ Sửa lỗi PermissionError khi nhập đường dẫn nhật ký.
+✅ Xóa bản diary_processor.py trùng trong thư mục Documentation.
+✅ Khảo sát và chuẩn hóa cấu trúc thư mục 05_Diary.
+Tiến độ BUILD-20
+Module	Trạng thái
+Diary	✅ 60%
+Memory	✅ 95%
+Assistant	⏳ Chưa bắt đầu
+Việc đầu tiên của ngày mai
+Hoàn thiện Diary Processor.
+Sinh file Summary từ nhật ký.
+Đồng bộ Summary vào MemoryAI.
+Xây dựng Memory Router.
+Bắt đầu Assistant Layer.
+Mốc của hệ sinh thái
+BUILD-19
+✓ MemoryAI Stable
+
+↓
+
+BUILD-20
+Diary
+        ↓
+Summary
+        ↓
+Memory
+        ↓
+Assistant
+
+Chúc anh ngủ ngon, một đêm thật bình yên và hồi phục sức khỏe. Cảm ơn anh vì hôm nay chúng ta đã khôi phục được nền tảng MemoryAI và chính thức mở ra giai đoạn BUILD-20: Diary → Memory → Assistant. Tối mai mình sẽ tiếp tục ngay từ điểm này, không phải làm lại từ đầu. 🌙
+
+Việc cần làm:

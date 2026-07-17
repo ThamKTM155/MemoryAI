@@ -1,0 +1,33 @@
+2025-05-28
+Bắt đầu học AI
+
+2026-02
+AutoYouTube đa kênh
+
+2026-05-11
+Khôi phục ThamAI Production
+
+2026-06-09
+Khôi phục Kenh3
+
+2026-06-10
+Đóng băng AutoYouTube V22
+MEMORYAI MASTER INDEX
+
+01_Founder
+- founder_profile.md
+- life_timeline.md
+
+02_Roadmap
+- roadmap_2026.md
+
+03_Projects
+- AutoYouTube.md
+- ThamAI.md
+- TalkingAI_Kids.md
+
+04_Ideas
+- AI_Robot_TreEm.md
+
+09_AI_Memory
+- CURRENT_MISSION.md

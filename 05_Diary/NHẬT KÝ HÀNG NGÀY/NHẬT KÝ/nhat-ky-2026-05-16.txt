@@ -1,0 +1,135 @@
+Ngày: 2026-05-16
+Tâm trạng: Ổn định
+
+Công việc:
+
+
+
+
+
+
+
+Hôm nay
+Bạn đã nói
+
+Mã SWIFT CỦA TÀI KHOẢN NGÂN HÀNG LÀ GÌ? CÁCH KHAI BÁO MÃ SWIFT TRÊN FACEBOOK THÌ LÀM NHƯ THẾ NÀO?
+Copilot đã nói
+🔑 Mã SWIFT là gì?
+
+Mã SWIFT (còn gọi là BIC – Bank Identifier Code) là một dãy ký tự gồm 8 hoặc 11 chữ cái và số, dùng để nhận diện ngân hàng trên toàn cầu.
+
+Khi bạn chuyển tiền quốc tế, ngân hàng ở nước ngoài sẽ dựa vào mã SWIFT để biết chính xác ngân hàng nào tại Việt Nam (hoặc quốc gia khác) sẽ nhận tiền.
+
+Ví dụ: Mã SWIFT của Vietcombank là BFTVVNVX, của BIDV là BIDVVNVX.
+
+📌 Cách khai báo mã SWIFT trên Facebook  
+Facebook chỉ yêu cầu khai báo mã SWIFT trong trường hợp bạn nhận thanh toán quốc tế (ví dụ: doanh thu từ quảng cáo Facebook, hoặc Facebook Audience Network).
+Các bước cơ bản:
+
+Vào Facebook Business / Meta Business → phần Cài đặt thanh toán.
+
+Chọn Thêm phương thức thanh toán → Chuyển khoản ngân hàng.
+
+Điền thông tin:
+
+Tên ngân hàng
+
+Số tài khoản
+
+Tên chủ tài khoản
+
+Mã SWIFT (lấy từ ngân hàng của bạn)
+
+Xác nhận và lưu lại.
+
+👉 Lưu ý:
+
+Bạn cần liên hệ trực tiếp ngân hàng để lấy đúng mã SWIFT, vì mỗi ngân hàng có mã riêng.
+
+Nếu nhập sai mã SWIFT, tiền có thể bị trả lại hoặc chuyển nhầm.
+
+Facebook không yêu cầu mã SWIFT cho các giao dịch nội địa, chỉ khi nhận tiền từ nước ngoài.
+
+Bạn có muốn mình liệt kê mã SWIFT của các ngân hàng lớn tại Việt Nam (Vietcombank, BIDV, Agribank, Techcombank, MB Bank…) để bạn tiện tham khảo không?
+
+
+
+
+
+
+
+Chỉnh sửa trong một trang
+Bạn đã nói
+
+MÃ swift của ngân hàng LPBank là gì?
+Copilot đã nói
+Mã SWIFT của ngân hàng LPBank (LienVietPostBank – Ngân hàng TMCP Bưu điện Liên Việt) là: LVBKVNVX. Đây là mã dùng để nhận diện LPBank trong các giao dịch quốc tế.
+
+📌 Thông tin chi tiết về mã SWIFT LPBank
+Tên ngân hàng quốc tế: Fortune Vietnam Joint Stock Commercial Bank (LPBank)
+
+Mã SWIFT/BIC: LVBKVNVX
+
+Địa chỉ trụ sở chính: LPB Tower, số 210 Trần Quang Khải, Quận Hoàn Kiếm, Hà Nội
+
+Độ dài mã: 8 ký tự (trường hợp cần chi nhánh cụ thể có thể thêm 3 ký tự thành 11)
+
+Ý nghĩa mã:
+
+LVBK → viết tắt của LPBank
+
+VN → Việt Nam
+
+VX → địa điểm chính (Hà Nội)
+
+
+diadiembank.com
++2
+
+🏦 Khi nào cần dùng mã SWIFT LPBank?
+Nhận tiền từ nước ngoài: Người chuyển tiền cần cung cấp mã SWIFT cùng với tên ngân hàng, số tài khoản, và tên chủ tài khoản.
+
+Chuyển tiền ra nước ngoài: LPBank sẽ yêu cầu bạn điền mã SWIFT của ngân hàng nhận ở nước ngoài.
+
+Khai báo trên các nền tảng quốc tế (ví dụ Facebook Business): Khi thiết lập phương thức thanh toán bằng chuyển khoản ngân hàng, bạn cần nhập mã SWIFT để Facebook/Meta xác định đúng ngân hàng LPBank tại Việt Nam.
+
+⚠️ Lưu ý quan trọng
+Phải nhập đúng mã SWIFT: Nếu sai, tiền có thể bị trả lại hoặc chậm xử lý.
+
+Tên chủ tài khoản: Phải trùng khớp với thông tin đã đăng ký tại LPBank.
+
+Loại tài khoản: Có thể dùng tài khoản VNĐ hoặc ngoại tệ (USD, EUR…), tùy nhu cầu.
+
+Giấy tờ tùy thân: Khi nhận tiền quốc tế tại quầy, cần CCCD/Hộ chiếu hợp lệ.
+
+👉 Tóm lại, nếu bạn cần khai báo mã SWIFT của LPBank trên Facebook để nhận thanh toán quốc tế, hãy nhập LVBKVNVX cùng với thông tin tài khoản ngân hàng của bạn.
+
+Bạn có muốn mình liệt kê thêm mã SWIFT của các ngân hàng lớn khác tại Việt Nam (Vietcombank, BIDV, Techcombank, MB Bank…) để tiện so sánh và tham khảo không?
+
+diadiembank.com
+
+LVBKVNVX XXX - Danh Sách Mã BIC/SWIFT Code LPBank
+
+fingo.vn
+
+Cập nhật Swift Code LPBank và cách giao dịch 2026 - Fingo
+
+
+
+Hiện tất cả
+
+
+
+
+
+
+
+Chỉnh sửa trong một trang
+
+
+Nhắn tin cho Copilot hoặc @ đề cập đến một tab
+Nhắn tin cho Copilot hoặc @ đề cập đến một tab
+
+
+
+Việc cần làm:

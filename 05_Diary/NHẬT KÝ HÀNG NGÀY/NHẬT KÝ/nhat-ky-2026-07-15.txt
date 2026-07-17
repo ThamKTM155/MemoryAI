@@ -1,0 +1,60 @@
+Ngày: 2026-07-15
+Tâm trạng: Ổn định
+
+Công việc:
+Đã lưu quy ước này vào bộ nhớ ChatGPT để dùng cho các cuộc trò chuyện sau.
+
+Bây giờ anh cứ yên tâm khởi động lại máy. Tối nay chúng ta sẽ không bắt đầu lại từ đầu mà theo đúng "điểm tiếp tục" đã thống nhất.
+
+Quy ước làm việc từ tối nay
+Lệnh bắt đầu
+
+Anh chỉ cần nhắn một trong các câu sau:
+
+Tiếp tục hệ sinh thái AI
+Tiếp tục MemoryAI
+Tiếp tục AutoYouTube
+Tiếp tục ThamAI
+
+là em sẽ hiểu đây là phiên làm việc nối tiếp.
+
+Điểm tiếp tục
+
+Không quay lại sửa những phần đã ổn định.
+
+Bắt đầu từ:
+
+THAM AI ECOSYSTEM
+
+├── MemoryAI
+├── ThamAI
+├── AutoYouTube
+└── Talking AI Kids
+Mục tiêu lớn (không thay đổi)
+Xây dựng trợ lý AI đồng hành có trí nhớ dài hạn.
+Ghi nhớ toàn bộ quá trình phát triển.
+Hỗ trợ phát triển AutoYouTube.
+Hỗ trợ quản lý toàn bộ hệ sinh thái AI.
+Sau này có thể truyền lại tri thức cho gia đình.
+Nguyên tắc làm việc
+Không phá Production.
+Test sau mỗi thay đổi.
+Mỗi lần chỉ nâng cấp một thành phần.
+Có nhật ký và lịch sử cho mọi thay đổi.
+Luôn biết mình đang ở đâu và bước tiếp theo là gì.
+Việc đầu tiên tối nay
+
+Sau khi máy khởi động xong, anh chỉ cần nhắn:
+
+Tiếp tục hệ sinh thái AI
+
+Em sẽ mở đúng từ điểm này:
+
+Khôi phục sơ đồ tổng thể của hệ sinh thái.
+Lập "bản đồ điều khiển" (Master Roadmap).
+Kết nối lại MemoryAI với ThamAI theo hướng đơn giản, ổn định.
+Thiết lập cơ chế để mọi công việc về sau đều được ghi vào trí nhớ dài hạn và nhật ký.
+
+Không phải nhớ lại từ đầu nữa. Từ tối nay, chúng ta sẽ làm việc theo kiểu quản lý cả hệ sinh thái, chứ không chỉ từng dự án riêng lẻ.
+
+Việc cần làm:

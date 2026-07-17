@@ -1,0 +1,325 @@
+{
+    "metadata": {
+        "database": "Memory Core",
+        "version": "BUILD-21.1",
+        "schema_version": "1.0",
+        "status": "Development",
+        "created": "2026-07-17",
+        "updated": "2026-07-17",
+        "generated_by": "Memory Builder"
+    },
+    "systems": [
+        {
+            "id": "SYS-001",
+            "name": "MemoryAI",
+            "type": "Memory Platform",
+            "status": "Development",
+            "version": "BUILD-21.1",
+            "priority": 1,
+            "connected": true,
+            "root": "D:\\MemoryAI",
+            "description": "Long-Term Memory Platform"
+        },
+        {
+            "id": "SYS-002",
+            "name": "AutoYouTube",
+            "type": "YouTube Automation",
+            "status": "Production",
+            "version": "V22",
+            "priority": 2,
+            "connected": true,
+            "root": "D:\\AutoYouTube",
+            "description": "YouTube Automation System"
+        },
+        {
+            "id": "SYS-003",
+            "name": "ThamAI",
+            "type": "AI Assistant",
+            "status": "Development",
+            "version": "V1",
+            "priority": 3,
+            "connected": true,
+            "root": "D:\\ThamAI_Backend_new",
+            "description": "Personal AI Assistant"
+        },
+        {
+            "id": "SYS-004",
+            "name": "TalkingAI Kids",
+            "type": "Education AI",
+            "status": "Hibernated",
+            "version": "V1",
+            "priority": 4,
+            "connected": false,
+            "root": "D:\\TalkingAI_Kids",
+            "description": "Interactive AI for Children"
+        }
+    ],
+    "projects": [
+        {
+            "id": "PRJ-001",
+            "system": "MemoryAI",
+            "name": "Diary Summary",
+            "status": "Production",
+            "version": "BUILD-20.3"
+        },
+        {
+            "id": "PRJ-002",
+            "system": "MemoryAI",
+            "name": "Memory Search",
+            "status": "Production",
+            "version": "BUILD-20.5.1"
+        },
+        {
+            "id": "PRJ-003",
+            "system": "MemoryAI",
+            "name": "Memory Builder",
+            "status": "Development",
+            "version": "BUILD-21.1"
+        },
+        {
+            "id": "PRJ-004",
+            "system": "MemoryAI",
+            "name": "Summary Index",
+            "status": "Production",
+            "version": "BUILD-20.3"
+        }
+    ],
+    "diaries": [
+        {
+            "id": "DS-2026-06-16",
+            "date": "2026-06-16",
+            "version": "BUILD-20.3",
+            "source": "nhat-ky-2026-06-16 (1).txt",
+            "file": "2026-06-16_summary.md",
+            "path": "D:\\MemoryAI\\11_Diary_Summary\\summaries\\2026-06-16_summary.md"
+        },
+        {
+            "id": "DS-2026-06-16",
+            "date": "2026-06-16",
+            "version": "BUILD-20.3",
+            "source": "nhat-ky-2026-06-16.txt",
+            "file": "nhat-ky-2026-06-16 (1)_summary.md",
+            "path": "D:\\MemoryAI\\11_Diary_Summary\\summaries\\nhat-ky-2026-06-16 (1)_summary.md"
+        }
+    ],
+    "decisions": [
+        {
+            "diary_id": "DS-2026-06-16",
+            "decision": "Chốt anh nhé. ✅"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "decision": "MemoryAI V1                    ✅ COMPLETE"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "decision": "Memory Search                  ✅ COMPLETE"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "decision": "Memory API                     ✅ COMPLETE"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "decision": "Memory Answer                  ✅ COMPLETE"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "decision": "Memory Server                  ✅ COMPLETE"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "decision": "Memory Router V1               ✅ COMPLETE"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "decision": "ThamAI ↔ MemoryAI              ✅ COMPLETE"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "decision": "OpenRouter Fallback            ✅ COMPLETE"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "decision": "Github Commit                  ✅ COMPLETE"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "decision": "Github Push                    ✅ COMPLETE"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "decision": "v1.0-memoryai                  ✅ COMPLETE"
+        }
+    ],
+    "lessons": [
+        {
+            "diary_id": "DS-2026-06-16",
+            "lesson": "Bài học kỹ thuật hôm nay"
+        }
+    ],
+    "tasks": [],
+    "keywords": [
+        {
+            "diary_id": "DS-2026-06-16",
+            "keyword": "AutoYouTube"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "keyword": "MemoryAI"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "keyword": "ThamAI"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "keyword": "Dashboard"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "keyword": "OpenRouter"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "keyword": "Github"
+        },
+        {
+            "diary_id": "DS-2026-06-16",
+            "keyword": "Production"
+        }
+    ],
+    "relationships": [
+        {
+            "from": "DS-2026-06-16",
+            "to": "Chốt anh nhé. ✅",
+            "type": "HAS_DECISION"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "MemoryAI V1                    ✅ COMPLETE",
+            "type": "HAS_DECISION"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "Memory Search                  ✅ COMPLETE",
+            "type": "HAS_DECISION"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "Memory API                     ✅ COMPLETE",
+            "type": "HAS_DECISION"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "Memory Answer                  ✅ COMPLETE",
+            "type": "HAS_DECISION"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "Memory Server                  ✅ COMPLETE",
+            "type": "HAS_DECISION"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "Memory Router V1               ✅ COMPLETE",
+            "type": "HAS_DECISION"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "ThamAI ↔ MemoryAI              ✅ COMPLETE",
+            "type": "HAS_DECISION"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "OpenRouter Fallback            ✅ COMPLETE",
+            "type": "HAS_DECISION"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "Github Commit                  ✅ COMPLETE",
+            "type": "HAS_DECISION"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "Github Push                    ✅ COMPLETE",
+            "type": "HAS_DECISION"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "v1.0-memoryai                  ✅ COMPLETE",
+            "type": "HAS_DECISION"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "Bài học kỹ thuật hôm nay",
+            "type": "HAS_LESSON"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "AutoYouTube",
+            "type": "HAS_KEYWORD"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "MemoryAI",
+            "type": "HAS_KEYWORD"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "ThamAI",
+            "type": "HAS_KEYWORD"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "Dashboard",
+            "type": "HAS_KEYWORD"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "OpenRouter",
+            "type": "HAS_KEYWORD"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "Github",
+            "type": "HAS_KEYWORD"
+        },
+        {
+            "from": "DS-2026-06-16",
+            "to": "Production",
+            "type": "HAS_KEYWORD"
+        }
+    ],
+    "project_intelligence": {
+        "DS-2026-06-16": {
+            "decisions": [
+                "Chốt anh nhé. ✅",
+                "MemoryAI V1                    ✅ COMPLETE",
+                "Memory Search                  ✅ COMPLETE",
+                "Memory API                     ✅ COMPLETE",
+                "Memory Answer                  ✅ COMPLETE",
+                "Memory Server                  ✅ COMPLETE",
+                "Memory Router V1               ✅ COMPLETE",
+                "ThamAI ↔ MemoryAI              ✅ COMPLETE",
+                "OpenRouter Fallback            ✅ COMPLETE",
+                "Github Commit                  ✅ COMPLETE",
+                "Github Push                    ✅ COMPLETE",
+                "v1.0-memoryai                  ✅ COMPLETE"
+            ],
+            "lessons": [
+                "Bài học kỹ thuật hôm nay"
+            ],
+            "tasks": [],
+            "keywords": [
+                "AutoYouTube",
+                "MemoryAI",
+                "ThamAI",
+                "Dashboard",
+                "OpenRouter",
+                "Github",
+                "Production"
+            ]
+        }
+    }
+}

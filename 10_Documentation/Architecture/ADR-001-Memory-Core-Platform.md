@@ -1,0 +1,6 @@
+D:\MemoryAI\
+└──10_Documentation
+    └──Architecture
+        ├──ADR-001-Memory-Core-Platform.md
+        ├──ADR-002-...
+        └──...

@@ -1,0 +1,155 @@
+Ngày: 2026-05-20
+Tâm trạng: Ổn định
+
+Công việc:
+Đã tổng kết toàn bộ tiến trình hôm nay rồi 🌙🧠
+
+Nhật ký tiến độ AutoYouTube V22
+✅ Đã xử lý
+1. Script cleaner ổn định hơn
+fix quote AI
+fix bullet AI
+fix dấu câu AI
+remove duplicate lines
+remove semantic repetition
+limit script length
+block từ kiểu:
+“mãi nghèo”
+“người nghèo”
+“giàu nghèo”
+2. Hook system sạch hơn
+
+Đã:
+
+block toxic hook
+block clone hook rác
+fix hook quá dài
+fix hook nhiễm:
+“phá hủy”
+“hối hận”
+“99%”
+“đừng bỏ qua”
+“thất bại”
+3. Phát hiện nguyên nhân thật sự
+
+Không phải title_engine.
+
+Mà:
+
+AI học ngược từ JSON memory
+
+Các file:
+
+ai_stats_kenh3.json
+recent_titles_kenh3.json
+hook_stats_kenh3.json
+
+đang chứa:
+
+title lai
+hook toxic
+pattern rác
+
+=> pipeline tự nhiễm style.
+
+4. Đã thêm cơ chế block memory bẩn
+
+Trong:
+
+modules/ai_brain.py
+
+đã thêm:
+
+block toxic hook
+block title lỗi
+block title quá dài (>14 từ)
+5. Kênh 3 bắt đầu hồi style
+
+Hook:
+từ:
+
+Bạn sẽ hối hận nếu...
+
+đã chuyển thành:
+
+Bình yên đôi khi chỉ là một buổi tối yên lặng.
+
+=> đúng hướng healing.
+
+6. Đã xác nhận pipeline hiện tại ổn định
+render OK
+upload OK
+token refresh OK
+voice OK
+thumbnail OK
+retry system OK
+⚠️ Vấn đề còn tồn tại
+1. Memory JSON vẫn còn rác cũ
+
+Cần cleanup tiếp:
+
+ai_stats_kenh3.json
+recent_titles_kenh3.json
+hook_stats_kenh3.json
+2. Title lai vẫn xuất hiện nhẹ
+
+Ví dụ:
+
+điều khiến cuộc sống tụt xuống Có những lựa chọn nhỏ...
+
+=> cần thêm:
+
+anti merge title
+anti duplicated phrase
+title grammar validator
+3. Kênh 3 retention còn yếu
+
+Hiện:
+
+avg view ~13
+retention ~0.41
+
+Nguyên nhân:
+
+nội dung quá chung chung
+thiếu “micro emotion”
+thiếu tình huống thật
+Kế hoạch ngày mai 🚀
+Ưu tiên 1
+
+Làm sạch memory AI:
+
+auto clean toxic stats
+auto clean merged titles
+auto clean duplicated patterns
+Ưu tiên 2
+
+Nâng chất lượng script:
+
+thêm micro-story thật hơn
+tăng emotional realism
+giảm văn AI
+Ưu tiên 3
+
+Tách personality từng kênh:
+
+kênh1 = trưởng thành
+kênh2 = bài học cuộc sống
+kênh3 = healing / bình yên
+kênh4 = tài chính đời thực
+Ưu tiên 4
+
+Làm anti-AI mutation layer
+Ngăn:
+
+title ghép
+hook clone
+phrase mutation lỗi
+semantic drift
+
+Ngủ ngon nhé anh 🌌
+Hôm nay pipeline đã từ “máy spam video” tiến hóa thành một hệ AI có trí nhớ và cá tính riêng rồi 🤖🌱
+
+CHẾ ĐỘ NHÀ PHÁT TRIỂN
+
+Việc cần làm:

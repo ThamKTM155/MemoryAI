@@ -1,0 +1,924 @@
+
+================================================================================
+FILE: 09_AI_Memory\CURRENT_MISSION.md
+================================================================================
+# CURRENT MISSION
+
+Ngày cập nhật: 15/06/2026
+
+## Trạng thái hiện tại
+
+AutoYouTube V22 đang hoạt động ổn định.
+
+Dashboard V22 đã hoàn thiện:
+
+* Winner Hook
+* Hook Views
+* Hook Retention
+* Hook Samples
+* AI Confidence
+* Winner Pattern
+* Title Winner Pattern
+
+Winner AI đang hoạt động bình thường.
+
+## Ưu tiên số 1
+
+Chăm sóc gia đình.
+
+Đưa vợ đi Sài Gòn khám bệnh và giải quyết các công việc gia đình trong tuần này.
+
+## Ưu tiên số 2
+
+Duy trì AutoYouTube V22 hoạt động ổn định.
+
+Không sửa các thành phần production nếu không phát sinh lỗi thực tế.
+
+## Ưu tiên số 3
+
+Xây dựng MemoryAI.
+
+Mục tiêu:
+
+* Lưu trữ tri thức lâu dài.
+* Lưu trữ dự án.
+* Lưu trữ nhật ký phát triển.
+* Hình thành trí nhớ dài hạn cho trợ lý AI.
+
+## Ưu tiên số 4
+
+Phát triển trợ lý AI cá nhân.
+
+Hướng tới hệ thống có khả năng:
+
+* Đọc MemoryAI.
+* Ghi nhớ lộ trình dự án.
+* Hỗ trợ phát triển AutoYouTube.
+* Hỗ trợ quản lý công việc gia đình.
+
+## Dự án tạm dừng
+
+TalkingAI Kids
+
+Trạng thái: HIBERNATED
+
+Lý do:
+
+* Tạm ưu tiên AutoYouTube và MemoryAI.
+* Sẽ tiếp tục khi có thời gian phù hợp.
+
+## Nguyên tắc làm việc
+
+* Không phá hệ thống đang chạy.
+* Ưu tiên production ổn định.
+* Test sau mỗi thay đổi.
+* Thu thập dữ liệu thật trước khi nâng cấp AI.
+* Tích lũy từng bước nhỏ mỗi ngày.
+## Đã hoàn thành gần đây
+
+- Dashboard V22 hoàn thiện
+- AI Confidence hoàn thiện
+- Hook Learning Dashboard hoàn thiện
+- MemoryAI V1 hoàn thành
+- Tích hợp MemoryAI với ThamAI thành công
+
+
+================================================================================
+FILE: 09_AI_Memory\system_state.txt
+================================================================================
+AutoYouTube V22
+Production Stable
+
+4 kênh
+
+Hook Pool mới
+
+Winner Hook AI:
+Chưa triển khai
+
+----------------------------------------------------------------
+Ngày: 12-06-2026
+
+AUTOYOUTUBE CURRENT STATE
+
+Entry Point:
+main.py
+
+Scheduler đang dùng:
+modules\scheduler.py
+
+Pipeline:
+core\pipeline.py
+
+Script Engine:
+modules\script_engine_v80.py
+
+Hook Engine:
+modules\micro_story_hook_engine.py
+
+Task Scheduler:
+AutoYouTube (Running)
+
+Không sử dụng:
+core\scheduler.py
+
+Ghi chú:
+Không xóa file cũ nếu chưa xác nhận 100%.
+
+
+================================================================================
+FILE: 03_Projects\PROJECT_INDEX.md
+================================================================================
+# PROJECT INDEX
+
+Cập nhật: 15/06/2026
+
+## ACTIVE PROJECTS
+
+### AutoYouTube
+
+Trạng thái:
+ACTIVE
+
+Mục tiêu:
+
+* Hệ thống YouTube tự động.
+* AI chọn chủ đề.
+* AI viết nội dung.
+* AI tạo video.
+* AI upload YouTube.
+* Winner AI Learning.
+
+File:
+
+AutoYouTube.md
+
+---
+
+### MemoryAI
+
+Trạng thái:
+ACTIVE
+
+Mục tiêu:
+
+* Trí nhớ dài hạn.
+* Quản lý dự án.
+* Nhật ký phát triển.
+* Hệ thống tri thức cá nhân.
+
+File:
+
+MemoryAI.md
+
+---
+
+### ThamAI
+
+Trạng thái:
+ACTIVE
+
+Mục tiêu:
+
+* Trợ lý AI cá nhân.
+* Frontend + Backend.
+* Đọc dữ liệu MemoryAI.
+* Hỗ trợ công việc hàng ngày.
+
+File:
+
+ThamAI.md
+
+---
+
+## HIBERNATED PROJECTS
+
+### TalkingAI Kids
+
+Trạng thái:
+HIBERNATED
+
+Mục tiêu:
+
+* Robot nói chuyện với trẻ em.
+* Kể chuyện.
+* Học tập.
+* Đồng hành cùng cháu nội.
+
+File:
+
+TalkingAI_Kids.md
+
+---
+
+## FUTURE PROJECTS
+
+* AI Family Assistant
+* AI Long-Term Memory
+* AI Multi-Agent System
+* AI Education System
+
+
+
+================================================================================
+FILE: 03_Projects\AutoYouTube.md
+================================================================================
+# AutoYouTube
+
+Cập nhật: 15/06/2026
+
+## Thông tin dự án
+
+Tên dự án:
+AutoYouTube
+
+Phiên bản hiện tại:
+V22
+
+Trạng thái:
+Production Stable
+
+Đường dẫn:
+
+D:\AutoYouTube
+
+D:\autoyoutube_v22_stable_2026
+
+Github:
+
+Chưa đẩy phiên bản V22 hiện tại lên Github.
+
+---
+
+## Mục tiêu
+
+Xây dựng hệ thống AI tự động vận hành kênh YouTube.
+
+Hệ thống có khả năng:
+
+* Tự chọn chủ đề.
+* Tự tạo tiêu đề.
+* Tự tạo nội dung.
+* Tự tạo giọng đọc.
+* Tự render video.
+* Tự upload YouTube.
+* Tự học từ dữ liệu thực tế.
+
+---
+
+## Thành phần chính
+
+### Topic AI
+
+Chọn chủ đề dựa trên dữ liệu đã học.
+
+### Script Engine
+
+Tạo nội dung video tự động.
+
+### Hook Engine
+
+Tạo câu mở đầu thu hút.
+
+### Title Engine
+
+Tạo tiêu đề tối ưu.
+
+### Voice AI
+
+Tạo giọng đọc.
+
+### Render Engine
+
+Ghép video hoàn chỉnh.
+
+### Uploader
+
+Upload YouTube tự động.
+
+### Winner AI
+
+Phân tích video hiệu quả nhất.
+
+### Dashboard
+
+Theo dõi tình trạng toàn hệ thống.
+
+---
+
+## Kênh hiện tại
+
+* Kenh1
+* Kenh2
+* Kenh3
+* Kenh4
+
+---
+
+## Dashboard V22
+
+Đã hoàn thiện:
+
+* AI Health
+* AI Confidence
+* Hook Samples
+* Winner Hook
+* Winner Retention Hook
+* Winner Pattern
+* Title Winner Pattern
+* Winner Count
+
+---
+
+## Trạng thái hiện tại
+
+Hệ thống đang hoạt động ổn định.
+
+Winner AI Learning hoạt động.
+
+Dashboard V22 hoạt động.
+
+Không có lỗi production nghiêm trọng.
+
+---
+
+## Hướng phát triển
+
+Ngắn hạn:
+
+* Thu thập thêm dữ liệu thật.
+* Theo dõi Kenh3.
+* Theo dõi Kenh4.
+
+Trung hạn:
+
+* Winner AI V2
+* Hook Learning V2
+* Retention Learning
+
+Dài hạn:
+
+* AutoYouTube Multi-Agent
+* AI Content Factory
+* Hệ thống tự tối ưu nội dung theo dữ liệu thực tế
+
+---
+
+## Nguyên tắc phát triển
+
+* Không phá production.
+* Ưu tiên ổn định.
+* Test sau mỗi thay đổi.
+* Thu thập dữ liệu thật trước khi tối ưu AI.
+* Chỉ nâng cấp khi có lợi ích rõ ràng.
+
+
+
+================================================================================
+FILE: 03_Projects\ThamAI.md
+================================================================================
+# ThamAI
+
+Cập nhật: 15/06/2026
+
+## Thông tin dự án
+
+Tên dự án:
+ThamAI
+
+Loại dự án:
+Trợ lý AI cá nhân
+
+Trạng thái:
+Đang phát triển
+
+---
+
+## Kiến trúc hiện tại
+
+Frontend:
+
+* Vercel
+* Giao diện Web
+
+Backend:
+
+* Render
+* API Server
+
+LLM:
+
+* OpenRouter
+
+---
+
+## Repository
+
+Frontend:
+
+ThamAI_Frontend_new
+
+Backend:
+
+ThamAI_Backend_new
+
+---
+
+## Mục tiêu chính
+
+Xây dựng trợ lý AI cá nhân phục vụ công việc và cuộc sống.
+
+Hệ thống có khả năng:
+
+* Trò chuyện tự nhiên.
+* Hỗ trợ phát triển phần mềm.
+* Hỗ trợ AutoYouTube.
+* Hỗ trợ quản lý công việc.
+* Hỗ trợ lưu trữ tri thức.
+* Ghi nhớ dài hạn.
+
+---
+
+## Liên kết với MemoryAI
+
+ThamAI sẽ là hệ thống sử dụng dữ liệu từ MemoryAI.
+
+Nguồn dữ liệu:
+
+* CURRENT_MISSION.md
+* PROJECT_INDEX.md
+* AutoYouTube.md
+* ThamAI.md
+* TalkingAI_Kids.md
+* Nhật ký phát triển
+
+Mục tiêu:
+
+Giúp AI hiểu được:
+
+* Người dùng đang làm gì.
+* Dự án nào đang quan trọng.
+* Các quyết định đã thực hiện.
+* Lộ trình phát triển dài hạn.
+
+---
+
+## Chức năng tương lai
+
+### AI Memory
+
+* Đọc dữ liệu MemoryAI.
+* Tạo trí nhớ dài hạn.
+* Tìm kiếm thông tin dự án.
+
+### Project Assistant
+
+* Theo dõi tiến độ dự án.
+* Đề xuất công việc tiếp theo.
+* Quản lý roadmap.
+
+### Family Assistant
+
+* Hỗ trợ công việc gia đình.
+* Lưu các sự kiện quan trọng.
+* Quản lý lịch trình.
+
+### AutoYouTube Assistant
+
+* Theo dõi Dashboard.
+* Theo dõi Winner AI.
+* Theo dõi hiệu suất các kênh.
+
+---
+
+## Tầm nhìn dài hạn
+
+ThamAI sẽ trở thành trung tâm điều phối của toàn bộ hệ sinh thái:
+
+* AutoYouTube
+* MemoryAI
+* TalkingAI Kids
+* AI Family Assistant
+* Multi-Agent AI System
+
+---
+
+## Nguyên tắc phát triển
+
+* Ưu tiên thực tế.
+* Ưu tiên ổn định.
+* Không phá hệ thống đang chạy.
+* Tích lũy từng bước nhỏ.
+* Xây dựng tài sản số lâu dài cho gia đình và con cháu.
+
+
+
+================================================================================
+FILE: 03_Projects\TalkingAI_Kids.md
+================================================================================
+# TalkingAI Kids
+
+Cập nhật: 15/06/2026
+
+## Thông tin dự án
+
+Tên dự án:
+TalkingAI Kids
+
+Loại dự án:
+AI kể chuyện và đồng hành cùng trẻ em.
+
+Trạng thái:
+
+HIBERNATED
+
+(Tạm dừng nhưng không hủy bỏ)
+
+---
+
+## Nguồn gốc dự án
+
+Dự án được hình thành với mong muốn tạo ra một người bạn AI có thể trò chuyện, kể chuyện và đồng hành cùng các cháu nội trong gia đình.
+
+Ý tưởng ban đầu không xuất phát từ mục tiêu kinh doanh mà từ mong muốn tạo ra một môi trường học tập và giải trí an toàn, hữu ích cho trẻ em.
+
+---
+
+## Mục tiêu ban đầu
+
+* Làm cho hai cháu nội sử dụng.
+* Kể chuyện.
+* Học tập.
+* Giải trí.
+* Tạo môi trường tương tác tích cực.
+
+---
+
+## Tài nguyên hiện có
+
+Kho dữ liệu:
+
+* Truyện thiếu nhi.
+* Kịch bản ngắn.
+* Hình ảnh.
+* Âm thanh.
+* Video.
+
+Đường dẫn chính:
+
+D:\MemoryAI\08_Family\TalkingAI_Kids
+
+---
+
+## Hướng phát triển tương lai
+
+### AI Storytelling
+
+* Kể chuyện tự động.
+* Tạo truyện mới.
+* Đọc truyện bằng giọng AI.
+
+### AI Learning
+
+* Hỗ trợ học tập.
+* Giải thích kiến thức đơn giản.
+* Đồng hành cùng trẻ em.
+
+### AI Companion
+
+* Trò chuyện thân thiện.
+* Gợi ý hoạt động học tập.
+* Khuyến khích thói quen tích cực.
+
+---
+
+## Liên kết với hệ sinh thái
+
+TalkingAI Kids có thể sử dụng:
+
+* MemoryAI
+* ThamAI
+* AutoYouTube
+
+để tạo nội dung giáo dục và giải trí dành cho trẻ em.
+
+---
+
+## Tầm nhìn dài hạn
+
+Xây dựng một trợ lý AI thân thiện dành cho trẻ em và gia đình.
+
+Nếu có điều kiện phù hợp trong tương lai, dự án có thể phát triển thành:
+
+* Hệ sinh thái giáo dục số.
+* Kênh YouTube cho trẻ em.
+* Robot AI đồng hành cùng trẻ nhỏ.
+
+---
+
+## Trạng thái hiện tại
+
+HIBERNATED
+
+Ưu tiên hiện tại:
+
+1. Gia đình.
+2. AutoYouTube V22.
+3. MemoryAI.
+4. ThamAI.
+
+TalkingAI Kids sẽ được tiếp tục khi các dự án ưu tiên hiện tại đã ổn định.
+
+
+
+================================================================================
+FILE: 01_Founder\founder_profile.md
+================================================================================
+Tên dự án chính:
+AutoYouTube
+ThamAI
+TalkingAI
+YouTubeUploader
+
+# Founder Profile
+Tên, chủ dự án: Ngọc Thắm KTM
+Vai trò:
+Người sáng lập hệ sinh thái AutoYouTube, ThamAI và MemoryAI; TalkingAI; YouTubeUploader
+
+Mục tiêu:
+
+- Xây dựng hệ thống AI hỗ trợ cuộc sống.
+- Tạo nguồn thu nhập tự động từ YouTube.
+- Xây dựng tài sản số cho con cháu.
+- Lưu giữ tri thức, kinh nghiệm và ký ức gia đình.
+- Lưu trữ gia phả cho dòng họ và gia đình.
+
+Nguyên tắc làm việc:
+
+- Ưu tiên production ổn định.
+- Không refactor phá hệ thống đang chạy.
+- Test sau mỗi thay đổi.
+- Ưu tiên thực chiến hơn lý thuyết.
+- Tích lũy từng bước nhỏ mỗi ngày.
+
+Triết lý:
+
+Mỗi dự án đều là một viên gạch xây nên tài sản số cho gia đình trong tương lai.
+
+
+================================================================================
+FILE: 01_Founder\WORKING_PRINCIPLES.md
+================================================================================
+# WORKING PRINCIPLES
+
+Cập nhật: 15/06/2026
+
+## Triết lý làm việc
+
+Mục tiêu là xây dựng các hệ thống AI và tài sản số có thể hoạt động lâu dài, ổn định và tiếp tục phát triển theo thời gian.
+
+Ưu tiên giá trị thực tế hơn các thay đổi mang tính trình diễn.
+
+---
+
+## Nguyên tắc số 1
+
+Không phá production.
+
+Nếu hệ thống đang hoạt động ổn định thì không thay đổi chỉ vì muốn tối ưu lý thuyết.
+
+---
+
+## Nguyên tắc số 2
+
+Test sau mỗi thay đổi.
+
+Mỗi lần sửa đổi phải kiểm tra kết quả trước khi tiếp tục bước tiếp theo.
+
+---
+
+## Nguyên tắc số 3
+
+Ưu tiên ổn định hơn tính năng mới.
+
+Một hệ thống hoạt động ổn định có giá trị hơn một hệ thống có nhiều tính năng nhưng thường xuyên lỗi.
+
+---
+
+## Nguyên tắc số 4
+
+Tích lũy từng bước nhỏ.
+
+Không cần tiến quá nhanh.
+
+Quan trọng là mỗi ngày tiến thêm một bước.
+
+---
+
+## Nguyên tắc số 5
+
+Thu thập dữ liệu thật.
+
+Mọi quyết định nâng cấp AI nên dựa trên dữ liệu thực tế thay vì giả định.
+
+---
+
+## Nguyên tắc số 6
+
+Lưu giữ tri thức.
+
+Các ý tưởng, dự án, kinh nghiệm và quyết định quan trọng cần được ghi lại trong MemoryAI.
+
+---
+
+## Nguyên tắc số 7
+
+Xây dựng tài sản số lâu dài.
+
+Các dự án được phát triển không chỉ phục vụ hiện tại mà còn có thể trở thành tài sản cho gia đình và con cháu trong tương lai.
+
+---
+
+## Câu nhắc nhở cốt lõi
+
+Ưu tiên ổn định.
+
+Không phá production.
+
+Tích lũy từng bước nhỏ mỗi ngày.
+
+
+
+================================================================================
+FILE: 02_Roadmap\ROADMAP_NEXT_PHASE.md
+================================================================================
+# ROADMAP NEXT PHASE
+
+Cập nhật: 15/06/2026
+
+## Giai đoạn hiện tại
+
+AutoYouTube V22 đang hoạt động ổn định.
+
+Dashboard V22 đã hoàn thiện.
+
+Winner AI V1 đã hoạt động.
+
+MemoryAI đang được xây dựng.
+
+---
+
+## Ưu tiên số 1
+
+Gia đình
+
+* Đưa vợ đi Sài Gòn khám bệnh.
+* Hoàn thành các công việc gia đình.
+
+Thời gian:
+
+15/06/2026 - 30/06/2026
+
+---
+
+## Ưu tiên số 2
+
+Duy trì AutoYouTube V22
+
+Mục tiêu:
+
+* Giữ production ổn định.
+* Không refactor lớn.
+* Theo dõi dữ liệu thật.
+* Theo dõi Kenh3.
+* Theo dõi Kenh4.
+
+---
+
+## Ưu tiên số 3
+
+MemoryAI
+
+Mục tiêu:
+
+* Hoàn thiện 01_Founder.
+* Hoàn thiện 02_Roadmap.
+* Hoàn thiện 03_Projects.
+* Hoàn thiện 09_AI_Memory.
+
+Xây dựng trí nhớ dài hạn cho trợ lý AI.
+
+---
+
+## Ưu tiên số 4
+
+ThamAI
+
+Mục tiêu:
+
+* Đọc dữ liệu MemoryAI.
+* Trả lời theo dữ liệu dự án.
+* Hỗ trợ quản lý hệ sinh thái AI.
+
+---
+
+## Sau tháng 6/2026
+
+* Winner AI V2
+* Hook Learning V2
+* Retention Learning
+* Dashboard V23
+
+---
+
+## Nguyên tắc
+
+* Gia đình trước.
+* Sức khỏe trước.
+* Không phá production.
+* Dữ liệu thật quan trọng hơn lý thuyết.
+* Mỗi lần chỉ nâng cấp một thành phần.
+
+
+
+================================================================================
+FILE: 01_Founder\LIFE_TIMELINE.md
+================================================================================
+2024
+Bắt đầu AutoYouTube
+
+2025
+Xây dựng ThamAI
+
+2025
+TalkingAI Kids
+
+2026
+AutoYouTube V22 Production
+
+2026
+MemoryAI
+# Life Timeline
+
+2025
+- Bắt đầu phát triển các dự án AI cá nhân.
+- Xây dựng TalkingAI Kids.
+
+2026
+- Hoàn thiện nhiều phiên bản AutoYouTube.
+- Hoàn thiện ThamAI Production.
+- Xây dựng MemoryAI.
+- Khởi tạo hệ thống lưu trữ tri thức lâu dài.
+
+Tương lai
+
+- Hoàn thiện trợ lý AI cá nhân.
+- Xây dựng AI đồng hành gia đình.
+- Xây dựng kho tri thức truyền lại cho con cháu.
+
+
+================================================================================
+DIARY SUMMARY: 2026-06-16_summary.md
+================================================================================
+# Diary Summary
+Source: 2026-06-16.md
+
+## Completed
+- Không có
+
+## Keywords
+- AutoYouTube
+- MemoryAI
+- ThamAI
+- Dashboard
+- OpenRouter
+- Github
+- Production
+
+## Next Tasks
+- Không có
+
+
+
+================================================================================
+DIARY SUMMARY: nhat-ky-2026-06-16 (1)_summary.md
+================================================================================
+# Diary Summary
+Source: nhat-ky-2026-06-16 (1).txt
+
+## Completed
+- Không có
+
+## Keywords
+- AutoYouTube
+- MemoryAI
+- ThamAI
+- Dashboard
+- OpenRouter
+- Github
+- Production
+
+## Next Tasks
+- Priority 1
+- Memory Router V2
+
