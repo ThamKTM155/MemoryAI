@@ -1,5 +1,5 @@
 import os
-
+from tools.memory_search import search_memory
 MEMORY_FILE = (
     r"D:\MemoryAI\09_AI_Memory\memory_context.txt"
 )
@@ -7,63 +7,13 @@ MEMORY_FILE = (
 
 def ask_memory(query):
 
-    if not os.path.exists(
-        MEMORY_FILE
-    ):
-        return (
-            "Không tìm thấy "
-            "memory_context.txt"
-        )
+    result = search_memory(query)
 
-    with open(
-        MEMORY_FILE,
-        "r",
-        encoding="utf-8"
-    ) as f:
+    if result:
 
-        text = f.read()
+        return result
 
-    query = query.lower()
-
-    chunks = text.split(
-        "=" * 80
-    )
-
-    matches = []
-
-    for chunk in chunks:
-
-        score = (
-            chunk.lower()
-            .count(query)
-        )
-
-        if score > 0:
-
-            matches.append(
-                (
-                    score,
-                    chunk
-                )
-            )
-
-    if not matches:
-
-        return (
-            "Không tìm thấy "
-            "thông tin liên quan."
-        )
-
-    matches.sort(
-        reverse=True,
-        key=lambda x: x[0]
-    )
-
-    return (
-        matches[0][1]
-        [:2000]
-    )
-
+    return "Không tìm thấy thông tin liên quan."
 
 if __name__ == "__main__":
 

@@ -1,5 +1,5 @@
 # memory_search.py
-from summary_index_search import search_index
+from tools.summary_index_search import search_index
 import os
 from pathlib import Path
 from datetime import datetime
@@ -124,11 +124,7 @@ def search_memory(keyword):
 
     if not results:
 
-        print(
-            "❌ Không tìm thấy"
-        )
-
-        return
+        return "❌ Không tìm thấy"
 
     # bỏ trùng
     unique = {}
@@ -150,7 +146,9 @@ def search_memory(keyword):
 
     results = results[:5]
 
-    print(
+    output = []
+
+    output.append(
         f"\n🔍 Top {len(results)} kết quả\n"
     )
 
@@ -162,18 +160,20 @@ def search_memory(keyword):
         1
     ):
 
-        print("=" * 80)
+        output.append("=" * 80)
 
-        print(
+        output.append(
             f"KẾT QUẢ {idx} "
             f"(Score={score})"
         )
 
-        print("=" * 80)
+        output.append("=" * 80)
 
-        print(block)
+        output.append(block)
 
-        print()
+        output.append("")
+
+    return "\n".join(output)
 if __name__ == "__main__":
 
     while True:

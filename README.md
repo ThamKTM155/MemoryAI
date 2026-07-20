@@ -4,7 +4,10 @@
 
 *Long-Term • Knowledge • AI*
 
-![Python](https://img.shields.io/badge/Python-3.11-blue) ![Version](https://img.shields.io/badge/Version-v1.0.0-orange) ![License](https://img.shields.io/badge/License-MIT-green) ![Status](https://img.shields.io/badge/BUILD--24-Stable-success)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Version](https://img.shields.io/badge/Version-v1.0.0-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/BUILD--24-Stable-success)
 
 > **Personal AI Memory Operating System for Lifelong Knowledge Management**
 
@@ -69,7 +72,7 @@ Organize information into categories:
 
 Current stable architecture includes:
 
-```
+```text
 core/
 tools/
 memory_db.json
@@ -95,7 +98,7 @@ python -m tools.memory_search
 
 # 📂 Project Structure
 
-```
+```text
 MemoryAI/
 
 ├── 01_Founder/
@@ -136,7 +139,7 @@ MemoryAI is designed to help AI systems:
 
 Current Stable Build:
 
-```
+```text
 BUILD-24 Stable
 ```
 

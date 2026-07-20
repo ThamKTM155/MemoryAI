@@ -2,7 +2,7 @@
 # MEMORY ANSWER V2
 # Updated: 15/06/2026
 # ====================================
-from memory_api import ask_memory
+from tools.memory_api import ask_memory
 import re
 
 def answer_memory(question):

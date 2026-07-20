@@ -1,0 +1,51 @@
+{
+  "latest_build": {
+    "canonical": "build mới nhất",
+    "questions": [
+      "build mới nhất",
+      "build gần nhất",
+      "build mới"
+    ]
+  },
+
+  "next_build": {
+    "canonical": "build tiếp theo",
+    "questions": [
+      "build tiếp theo",
+      "tiếp theo làm gì"
+    ]
+  },
+
+  "completed": {
+    "canonical": "đã hoàn thành gì",
+    "questions": [
+      "đã hoàn thành gì",
+      "đã làm được gì"
+    ]
+  },
+
+  "objective": {
+    "canonical": "mục tiêu là gì",
+    "questions": [
+      "mục tiêu là gì",
+      "đang xây gì"
+    ]
+  },
+
+  "tested": {
+    "canonical": "đã kiểm thử gì",
+    "questions": [
+      "đã kiểm thử gì"
+    ]
+  },
+
+  "result": {
+    "canonical": "kết quả là gì",
+    "questions": [
+      "kết quả là gì",
+      "đã xong chưa",
+      "đã hoàn thành chưa",
+      "kết quả"
+    ]
+  }
+}
