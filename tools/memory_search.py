@@ -174,6 +174,70 @@ def search_memory(keyword):
         output.append("")
 
     return "\n".join(output)
+
+def search_memory_raw(query: str, memory_db: dict):
+    """
+    BUILD-037
+
+    Raw Search API.
+
+    Trả về dữ liệu thô để Ranking xử lý.
+
+    Không format.
+
+    Không print.
+
+    Không ghép chuỗi.
+    """
+
+    if not memory_db:
+        return []
+
+    query = query.lower().strip()
+
+    candidates = []
+
+    # Duyệt toàn bộ database
+    for category, items in memory_db.items():
+
+        # Bỏ qua nếu không phải danh sách
+        if not isinstance(items, list):
+            continue
+
+        for item in items:
+
+            if not isinstance(item, dict):
+                continue
+
+            score = 0
+
+            # Tìm trong tất cả giá trị của object
+            for value in item.values():
+
+                if isinstance(value, str):
+
+                    score += value.lower().count(query)
+
+                elif isinstance(value, list):
+
+                    for x in value:
+
+                        if isinstance(x, str):
+
+                            score += x.lower().count(query)
+
+            if score > 0:
+
+                candidate = item.copy()
+
+                candidate["_score"] = score
+
+                candidate["_category"] = category
+
+                candidates.append(candidate)
+
+    return candidates
+
 if __name__ == "__main__":
 
     while True:

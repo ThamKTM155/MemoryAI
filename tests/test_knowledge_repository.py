@@ -1,106 +1,48 @@
-from core.knowledge_repository import KnowledgeRepository
+from pathlib import Path
 
-repo = KnowledgeRepository(
-    r"D:\MemoryAI\05_Diary"
+from tools.knowledge_repository import (
+    save_knowledge,
+    load_knowledge
 )
 
-repo.load()
 
-print("=" * 60)
+def test_knowledge_repository():
 
-print("STATISTICS")
+    knowledge = {
+        "id": "SUMMARY-001",
+        "date": "2026-07-28",
+        "source": "05_Diary/2026-07-28.md",
+        "version": "1.0",
 
-print("=" * 60)
+        "keywords": [
+            "MemoryAI",
+            "BUILD-35"
+        ],
 
-print(repo.statistics)
+        "projects": [
+            "MemoryAI"
+        ],
 
-print()
+        "decisions": [],
+        "lessons": [],
+        "tasks": []
+    }
 
-print("=" * 60)
+    output_file = Path("tests") / "knowledge_test.json"
 
-print("DOCUMENT TYPES")
-
-print("=" * 60)
-
-for doc_type in repo.by_type:
-
-    print(doc_type)
-
-    print(
-        len(
-            repo.by_type[doc_type]
-        )
+    # Save
+    save_knowledge(
+        knowledge,
+        output_file
     )
 
-    print()
+    assert output_file.exists()
 
-print("=" * 60)
+    # Load
+    loaded = load_knowledge(output_file)
 
-print("LOOKUP BY FILENAME")
+    # Compare
+    assert loaded == knowledge
 
-print("=" * 60)
-
-doc = repo.by_filename.get(
-    "ADR-001_MEMORY_ARCHITECTURE.md"
-)
-
-if doc:
-
-    print(doc["filename"])
-
-    print(doc["type"])
-
-print("=" * 60)
-
-print("SPECIAL INDEXES")
-
-print("=" * 60)
-
-print()
-
-print("CURRENT ROADMAP")
-
-print(repo.current_roadmap["filename"])
-
-print()
-
-print("LATEST ADR")
-
-print(repo.latest_adr["filename"])
-
-print()
-
-print("LATEST DAILY LOG")
-
-print(repo.latest_daily_log["filename"])
-
-print()
-
-print("DOCUMENTS BY DATE")
-
-for name in sorted(repo.documents_by_date):
-
-    print(name)
-print("=" * 60)
-print("TIMELINE")
-print("=" * 60)
-
-latest = repo.timeline.latest()
-
-print()
-
-print("LATEST")
-
-print(latest["date"])
-
-print(latest["document"]["filename"])
-
-print()
-
-earliest = repo.timeline.earliest()
-
-print("EARLIEST")
-
-print(earliest["date"])
-
-print(earliest["document"]["filename"])
+    # Cleanup
+    output_file.unlink()

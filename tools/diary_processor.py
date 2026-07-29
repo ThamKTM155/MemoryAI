@@ -216,15 +216,29 @@ def save_summary(
     )
 
     version = "BUILD-20.3"
+    source_name = Path(diary_path).stem
 
+    safe_name = (
+        source_name
+        .replace(" ", "_")
+    )
     outfile = summary_dir / (
-        name + "_summary.md"
+        f"{name}_{safe_name}_summary.md"
     )
 
     lines = []
 
     lines.append("# Diary Summary\n\n")
-    summary_id = f"DS-{name}"
+
+    source_name = Path(diary_path).stem
+
+    safe_name = (
+        source_name
+        .replace(" ", "_")
+    )
+    summary_id = (
+        f"DS-{name}-{safe_name}"
+    )
 
     generated_by = "Diary Processor BUILD-20.3"
     lines.append(
@@ -349,7 +363,54 @@ def save_summary(
     # ======================
     # Ghi file
     # ======================
+    # ======================================
+    # BUILD-33
+    # Summary Conflict Protection
+    # ======================================
 
+    if outfile.exists():
+
+        try:
+
+            old_text = outfile.read_text(
+                encoding="utf-8"
+            )
+
+        except Exception:
+
+            old_text = ""
+
+        old_source = None
+
+        for line in old_text.splitlines():
+
+            if line.startswith("Source:"):
+
+                old_source = line.replace(
+                    "Source:",
+                    ""
+                ).strip()
+
+                break
+
+        current_source = Path(
+            diary_path
+        ).name
+
+        if old_source and old_source != current_source:
+
+            print()
+            print("=" * 60)
+            print("SUMMARY CONFLICT")
+            print("=" * 60)
+
+            print(f"Summary : {outfile.name}")
+            print(f"Existing Source : {old_source}")
+            print(f"Current  Source : {current_source}")
+
+            raise RuntimeError(
+                "Summary overwrite blocked."
+            )
     with open(
         outfile,
         "w",
@@ -472,79 +533,35 @@ def update_summary_index(
 
         )
 
-def main():
+def process_diary(diary_path):
+    """
+    BUILD-32.1
 
-    diary = input(
-        "Đường dẫn nhật ký: "
-    ).strip()
+    Xử lý một file nhật ký.
 
-    if not os.path.exists(diary):
+    Pipeline:
+        Diary
+            ↓
+        Extract
+            ↓
+        Summary
+            ↓
+        Summary Index
+    """
 
-        print("Không tìm thấy file.")
-
-        return
-
-    text = load_diary(diary)
-
-    print()
-
-    print("=" * 70)
-    print("DIARY SUMMARY")
-    print("=" * 70)
-
-    print()
-
-    print("Completed")
-
-    print("-" * 30)
+    if not os.path.exists(diary_path):
+        print(f"Không tìm thấy: {diary_path}")
+        return False
+    if not os.path.isfile(diary_path):
+        print(f"Không phải file nhật ký: {diary_path}")
+        return False
+    text = load_diary(diary_path)
 
     completed = extract_completed(text)
 
-    if completed:
-
-        for item in completed:
-
-            print("✔", item)
-
-    else:
-
-        print("Không có.")
-
-    print()
-
-    print("Keywords")
-
-    print("-" * 30)
-
     keywords = extract_keywords(text)
 
-    if keywords:
-
-        for k in keywords:
-
-            print("-", k)
-
-    else:
-
-        print("Không có.")
-
-    print()
-
-    print("Next Tasks")
-
-    print("-" * 30)
-
     tasks = extract_next_tasks(text)
-
-    if tasks:
-
-        for t in tasks:
-
-            print("-", t)
-
-    else:
-
-        print("Không có.")
 
     decisions = extract_decisions(text)
 
@@ -553,22 +570,24 @@ def main():
     projects = extract_projects(text)
 
     save_summary(
-
-        diary,
-
+        diary_path,
         completed,
-
         decisions,
-
         lessons,
-
         keywords,
-
         tasks,
-
         projects
-
     )
+
+    return True
+
+def main():
+
+    diary = input(
+        "Đường dẫn nhật ký: "
+    ).strip()
+
+    process_diary(diary)
 if __name__ == "__main__":
 
     main()

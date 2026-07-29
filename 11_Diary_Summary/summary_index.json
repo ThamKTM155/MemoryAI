@@ -1,22 +1,1637 @@
 [
-    {
-        "id": "DS-2026-06-16",
-        "date": "2026-06-16",
-        "source": "nhat-ky-2026-06-16 (1).txt",
-        "version": "BUILD-20.3",
-        "projects": [
-            "AutoYouTube",
-            "MemoryAI",
-            "ThamAI"
-        ],
-        "keywords": [
-            "AutoYouTube",
-            "MemoryAI",
-            "ThamAI",
-            "Dashboard",
-            "OpenRouter",
-            "Github",
-            "Production"
-        ]
-    }
+  {
+    "id": "DS-2025-07-15-nhat-ky-2025-07-15",
+    "date": "2025-07-15",
+    "source": "nhat-ky-2025-07-15.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2025-07-15",
+    "date": "2025-07-15",
+    "source": "nhat-ky-2025-07-15.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2025-07-16-nhat-ky-2025-07-16_(1)",
+    "date": "2025-07-16",
+    "source": "nhat-ky-2025-07-16 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2025-07-16",
+    "date": "2025-07-16",
+    "source": "nhat-ky-2025-07-16 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2025-09-30-nhat-ky-2025-09-30",
+    "date": "2025-09-30",
+    "source": "nhat-ky-2025-09-30.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "ThamAI",
+      "Github"
+    ],
+    "projects": [
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2025-09-30",
+    "date": "2025-09-30",
+    "source": "nhat-ky-2025-09-30.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "ThamAI",
+      "Github"
+    ],
+    "projects": [
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-01-24-nhat-ky-2026-01-24_(1)",
+    "date": "2026-01-24",
+    "source": "nhat-ky-2026-01-24 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-01-24",
+    "date": "2026-01-24",
+    "source": "nhat-ky-2026-01-24 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-01-25-nhat-ky-2026-01-25_(1)",
+    "date": "2026-01-25",
+    "source": "nhat-ky-2026-01-25 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-01-25",
+    "date": "2026-01-25",
+    "source": "nhat-ky-2026-01-25 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-01-27-nhat-ky-2026-01-27",
+    "date": "2026-01-27",
+    "source": "nhat-ky-2026-01-27.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-01-27",
+    "date": "2026-01-27",
+    "source": "nhat-ky-2026-01-27.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-01-30-nhat-ky-2026-01-30",
+    "date": "2026-01-30",
+    "source": "nhat-ky-2026-01-30.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-01-30",
+    "date": "2026-01-30",
+    "source": "nhat-ky-2026-01-30.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-01-31-nhat-ky-2026-01-31",
+    "date": "2026-01-31",
+    "source": "nhat-ky-2026-01-31.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Dashboard"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-01-31",
+    "date": "2026-01-31",
+    "source": "nhat-ky-2026-01-31.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Dashboard"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-02-01-nhat-ky-2026-02-01",
+    "date": "2026-02-01",
+    "source": "nhat-ky-2026-02-01.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-02-01",
+    "date": "2026-02-01",
+    "source": "nhat-ky-2026-02-01.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-02-25-nhat-ky-2026-02-25_(1)",
+    "date": "2026-02-25",
+    "source": "nhat-ky-2026-02-25 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-02-25",
+    "date": "2026-02-25",
+    "source": "nhat-ky-2026-02-25 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-03-08-nhat-ky-2026-03-08",
+    "date": "2026-03-08",
+    "source": "nhat-ky-2026-03-08.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-03-08",
+    "date": "2026-03-08",
+    "source": "nhat-ky-2026-03-08.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-03-10-nhat-ky-2026-03-10",
+    "date": "2026-03-10",
+    "source": "nhat-ky-2026-03-10.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-03-10",
+    "date": "2026-03-10",
+    "source": "nhat-ky-2026-03-10.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-03-18-nhat-ky-2026-03-18",
+    "date": "2026-03-18",
+    "source": "nhat-ky-2026-03-18.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-03-18",
+    "date": "2026-03-18",
+    "source": "nhat-ky-2026-03-18.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-04-04-nhat-ky-2026-04-04",
+    "date": "2026-04-04",
+    "source": "nhat-ky-2026-04-04.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-04-04",
+    "date": "2026-04-04",
+    "source": "nhat-ky-2026-04-04.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-04-06-nhat-ky-2026-04-06",
+    "date": "2026-04-06",
+    "source": "nhat-ky-2026-04-06.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-04-06",
+    "date": "2026-04-06",
+    "source": "nhat-ky-2026-04-06.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-04-07-nhat-ky-2026-04-07",
+    "date": "2026-04-07",
+    "source": "nhat-ky-2026-04-07.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-04-07",
+    "date": "2026-04-07",
+    "source": "nhat-ky-2026-04-07.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-04-09-nhat-ky-2026-04-09",
+    "date": "2026-04-09",
+    "source": "nhat-ky-2026-04-09.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-04-09",
+    "date": "2026-04-09",
+    "source": "nhat-ky-2026-04-09.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-04-11-nhat-ky-2026-04-11",
+    "date": "2026-04-11",
+    "source": "nhat-ky-2026-04-11.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-04-11",
+    "date": "2026-04-11",
+    "source": "nhat-ky-2026-04-11.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-04-16-nhat-ky-2026-04-16",
+    "date": "2026-04-16",
+    "source": "nhat-ky-2026-04-16.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-04-16",
+    "date": "2026-04-16",
+    "source": "nhat-ky-2026-04-16.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-04-18-nhat-ky-2026-04-18",
+    "date": "2026-04-18",
+    "source": "nhat-ky-2026-04-18.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-04-18",
+    "date": "2026-04-18",
+    "source": "nhat-ky-2026-04-18.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-05-08-nhat-ky-2026-05-08",
+    "date": "2026-05-08",
+    "source": "nhat-ky-2026-05-08.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-05-08",
+    "date": "2026-05-08",
+    "source": "nhat-ky-2026-05-08.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-05-10-nhat-ky-2026-05-10_(1)",
+    "date": "2026-05-10",
+    "source": "nhat-ky-2026-05-10 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "ThamAI",
+      "OpenRouter"
+    ],
+    "projects": [
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-10",
+    "date": "2026-05-10",
+    "source": "nhat-ky-2026-05-10 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "ThamAI",
+      "OpenRouter"
+    ],
+    "projects": [
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-11-nhat-ky-2026-05-112",
+    "date": "2026-05-11",
+    "source": "nhat-ky-2026-05-112.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "ThamAI",
+      "Dashboard",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-11-nhat-ky-2026-05-11",
+    "date": "2026-05-11",
+    "source": "nhat-ky-2026-05-11.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "ThamAI",
+      "Dashboard",
+      "OpenRouter",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-11",
+    "date": "2026-05-11",
+    "source": "nhat-ky-2026-05-112.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "ThamAI",
+      "Dashboard",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-12-nhat-ky-2026-05-12",
+    "date": "2026-05-12",
+    "source": "nhat-ky-2026-05-12.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "ThamAI",
+      "OpenRouter",
+      "Github",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-12",
+    "date": "2026-05-12",
+    "source": "nhat-ky-2026-05-12.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "ThamAI",
+      "OpenRouter",
+      "Github",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-13-nhat-ky-2026-05-13",
+    "date": "2026-05-13",
+    "source": "nhat-ky-2026-05-13.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "ThamAI",
+      "OpenRouter",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-13",
+    "date": "2026-05-13",
+    "source": "nhat-ky-2026-05-13.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "ThamAI",
+      "OpenRouter",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-15-nhat-ky-2026-05-15",
+    "date": "2026-05-15",
+    "source": "nhat-ky-2026-05-15.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "ThamAI"
+    ],
+    "projects": [
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-15",
+    "date": "2026-05-15",
+    "source": "nhat-ky-2026-05-15.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "ThamAI"
+    ],
+    "projects": [
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-16-nhat-ky-2026-05-16",
+    "date": "2026-05-16",
+    "source": "nhat-ky-2026-05-16.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-05-16",
+    "date": "2026-05-16",
+    "source": "nhat-ky-2026-05-16.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-05-18-nhat-ky-2026-05-18",
+    "date": "2026-05-18",
+    "source": "nhat-ky-2026-05-18.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Production"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-05-18",
+    "date": "2026-05-18",
+    "source": "nhat-ky-2026-05-18.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Production"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-05-20-nhat-ky-2026-05-20",
+    "date": "2026-05-20",
+    "source": "nhat-ky-2026-05-20.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-05-20",
+    "date": "2026-05-20",
+    "source": "nhat-ky-2026-05-20.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-05-22-nhat-ky-2026-05-22",
+    "date": "2026-05-22",
+    "source": "nhat-ky-2026-05-22.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "ThamAI",
+      "Dashboard",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-22",
+    "date": "2026-05-22",
+    "source": "nhat-ky-2026-05-22.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "ThamAI",
+      "Dashboard",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-28-nhat-ky-2026-05-28",
+    "date": "2026-05-28",
+    "source": "nhat-ky-2026-05-28.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "ThamAI",
+      "Production"
+    ],
+    "projects": [
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-05-28",
+    "date": "2026-05-28",
+    "source": "nhat-ky-2026-05-28.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "ThamAI",
+      "Production"
+    ],
+    "projects": [
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-06-12-nhat-ky-2026-06-12_(1)",
+    "date": "2026-06-12",
+    "source": "nhat-ky-2026-06-12 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI",
+      "Dashboard",
+      "OpenRouter",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-06-12",
+    "date": "2026-06-12",
+    "source": "nhat-ky-2026-06-12 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI",
+      "Dashboard",
+      "OpenRouter",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-06-13-nhat-ky-2026-06-13",
+    "date": "2026-06-13",
+    "source": "nhat-ky-2026-06-13.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard",
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-06-13",
+    "date": "2026-06-13",
+    "source": "nhat-ky-2026-06-13.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard",
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-06-14-2026-06-14",
+    "date": "2026-06-14",
+    "source": "2026-06-14.md",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-06-14-nhat-ky-2026-06-14_(1)",
+    "date": "2026-06-14",
+    "source": "nhat-ky-2026-06-14 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard",
+      "Winner AI"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-06-14",
+    "date": "2026-06-14",
+    "source": "nhat-ky-2026-06-14 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard",
+      "Winner AI"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-06-15-2026-06-15",
+    "date": "2026-06-15",
+    "source": "2026-06-15.md",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-06-15-nhat-ky-2026-06-15_(1)",
+    "date": "2026-06-15",
+    "source": "nhat-ky-2026-06-15 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI",
+      "Dashboard",
+      "OpenRouter",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-06-15",
+    "date": "2026-06-15",
+    "source": "nhat-ky-2026-06-15 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI",
+      "Dashboard",
+      "OpenRouter",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-06-16-2026-06-16",
+    "date": "2026-06-16",
+    "source": "2026-06-16.md",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI",
+      "Dashboard",
+      "OpenRouter",
+      "Github",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-06-16-nhat-ky-2026-06-16",
+    "date": "2026-06-16",
+    "source": "nhat-ky-2026-06-16.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI",
+      "Dashboard",
+      "OpenRouter",
+      "Github"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-06-16",
+    "date": "2026-06-16",
+    "source": "nhat-ky-2026-06-16.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI",
+      "Dashboard",
+      "OpenRouter",
+      "Github"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-06-25-nhat-ky-2026-06-25",
+    "date": "2026-06-25",
+    "source": "nhat-ky-2026-06-25.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-06-25",
+    "date": "2026-06-25",
+    "source": "nhat-ky-2026-06-25.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-06-26-nhat-ky-2026-06-26_(1)",
+    "date": "2026-06-26",
+    "source": "nhat-ky-2026-06-26 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "ThamAI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "ThamAI",
+      "TalkingAI"
+    ]
+  },
+  {
+    "id": "DS-2026-06-26",
+    "date": "2026-06-26",
+    "source": "nhat-ky-2026-06-26 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "ThamAI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "ThamAI",
+      "TalkingAI"
+    ]
+  },
+  {
+    "id": "DS-2026-06-27-nhat-ky-2026-06-27",
+    "date": "2026-06-27",
+    "source": "nhat-ky-2026-06-27.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-06-27",
+    "date": "2026-06-27",
+    "source": "nhat-ky-2026-06-27.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-06-28-nhat-ky-2026-06-28",
+    "date": "2026-06-28",
+    "source": "nhat-ky-2026-06-28.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard",
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-06-28",
+    "date": "2026-06-28",
+    "source": "nhat-ky-2026-06-28.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Dashboard",
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-06-29-2026-06-29",
+    "date": "2026-06-29",
+    "source": "2026-06-29.md",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-06-29-nhat-ky-2026-06-29",
+    "date": "2026-06-29",
+    "source": "nhat-ky-2026-06-29.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-06-29",
+    "date": "2026-06-29",
+    "source": "nhat-ky-2026-06-29.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-06-30-nhat-ky-2026-06-30",
+    "date": "2026-06-30",
+    "source": "nhat-ky-2026-06-30.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-06-30",
+    "date": "2026-06-30",
+    "source": "nhat-ky-2026-06-30.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-07-01-nhat-ky-2026-07-01",
+    "date": "2026-07-01",
+    "source": "nhat-ky-2026-07-01.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "Dashboard",
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-01",
+    "date": "2026-07-01",
+    "source": "nhat-ky-2026-07-01.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "Dashboard",
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-10-nhat-ky-2026-07-10",
+    "date": "2026-07-10",
+    "source": "nhat-ky-2026-07-10.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-10",
+    "date": "2026-07-10",
+    "source": "nhat-ky-2026-07-10.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-11-2026-07-11",
+    "date": "2026-07-11",
+    "source": "2026-07-11.md",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-07-11-nhat-ky-2026-07-11",
+    "date": "2026-07-11",
+    "source": "nhat-ky-2026-07-11.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Winner AI"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-07-11",
+    "date": "2026-07-11",
+    "source": "nhat-ky-2026-07-11.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Winner AI"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-07-12-nhat-ky-2026-07-12",
+    "date": "2026-07-12",
+    "source": "nhat-ky-2026-07-12.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-07-12",
+    "date": "2026-07-12",
+    "source": "nhat-ky-2026-07-12.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube"
+    ],
+    "projects": [
+      "AutoYouTube"
+    ]
+  },
+  {
+    "id": "DS-2026-07-13-nhat-ky-2026-07-13",
+    "date": "2026-07-13",
+    "source": "nhat-ky-2026-07-13.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-13",
+    "date": "2026-07-13",
+    "source": "nhat-ky-2026-07-13.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "Winner AI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-14-2026-07-14",
+    "date": "2026-07-14",
+    "source": "2026-07-14.md",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI",
+      "Winner AI",
+      "OpenRouter",
+      "Github"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-14-nhat-ky-2026-07-14",
+    "date": "2026-07-14",
+    "source": "nhat-ky-2026-07-14.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI",
+      "Winner AI",
+      "OpenRouter",
+      "Github"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-14",
+    "date": "2026-07-14",
+    "source": "nhat-ky-2026-07-14.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI",
+      "Winner AI",
+      "OpenRouter",
+      "Github"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-15-nhat-ky-2026-07-15",
+    "date": "2026-07-15",
+    "source": "nhat-ky-2026-07-15.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-15",
+    "date": "2026-07-15",
+    "source": "nhat-ky-2026-07-15.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI",
+      "Production"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-16-nhat-ky-2026-07-16",
+    "date": "2026-07-16",
+    "source": "nhat-ky-2026-07-16.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "MemoryAI"
+    ],
+    "projects": [
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-16",
+    "date": "2026-07-16",
+    "source": "nhat-ky-2026-07-16.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "MemoryAI"
+    ],
+    "projects": [
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-17-nhat-ky-2026-07-17",
+    "date": "2026-07-17",
+    "source": "nhat-ky-2026-07-17.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "MemoryAI",
+      "ThamAI",
+      "Github"
+    ],
+    "projects": [
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-17",
+    "date": "2026-07-17",
+    "source": "nhat-ky-2026-07-17.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "MemoryAI",
+      "ThamAI",
+      "Github"
+    ],
+    "projects": [
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-19-2026-07-19",
+    "date": "2026-07-19",
+    "source": "2026-07-19.md",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "Không có"
+    ],
+    "projects": [
+      "Không có"
+    ]
+  },
+  {
+    "id": "DS-2026-07-19-nhat-ky-2026-07-19",
+    "date": "2026-07-19",
+    "source": "nhat-ky-2026-07-19.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "MemoryAI"
+    ],
+    "projects": [
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-19",
+    "date": "2026-07-19",
+    "source": "nhat-ky-2026-07-19.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "MemoryAI"
+    ],
+    "projects": [
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-21-2026-07-21",
+    "date": "2026-07-21",
+    "source": "2026-07-21.md",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "MemoryAI"
+    ],
+    "projects": [
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-21",
+    "date": "2026-07-21",
+    "source": "2026-07-21.md",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "MemoryAI"
+    ],
+    "projects": [
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-22-nhat-ky-2026-07-22_(1)",
+    "date": "2026-07-22",
+    "source": "nhat-ky-2026-07-22 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "MemoryAI",
+      "Dashboard"
+    ],
+    "projects": [
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-22",
+    "date": "2026-07-22",
+    "source": "nhat-ky-2026-07-22 (1).txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "MemoryAI",
+      "Dashboard"
+    ],
+    "projects": [
+      "MemoryAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-27-nhat-ky-2026-07-27",
+    "date": "2026-07-27",
+    "source": "nhat-ky-2026-07-27.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  },
+  {
+    "id": "DS-2026-07-27",
+    "date": "2026-07-27",
+    "source": "nhat-ky-2026-07-27.txt",
+    "version": "BUILD-20.3",
+    "keywords": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ],
+    "projects": [
+      "AutoYouTube",
+      "MemoryAI",
+      "ThamAI"
+    ]
+  }
 ]
