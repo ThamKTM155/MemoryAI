@@ -27,3 +27,7 @@ class MemoryAI:
             return self.timeline.answer(question)
 
         return f"Module '{route}' chưa được triển khai."
+
+    def save_experience(self, experience):
+
+        return self.memory.save_experience(experience)

@@ -2,7 +2,9 @@ from core.knowledge_repository import KnowledgeRepository
 from core.knowledge_manager import KnowledgeManager
 from core.memory_reasoning import MemoryReasoning
 from core.build_parser import BuildParser
-
+from core.experience_formatter import ExperienceFormatter
+from core.experience_validator import ExperienceValidator
+from core.experience_file_namer import ExperienceFileNamer
 class Memory:
 
     def __init__(self, diary_path):
@@ -10,6 +12,12 @@ class Memory:
         self.diary_path = diary_path
 
         self.repository = KnowledgeRepository(diary_path)
+
+        self.formatter = ExperienceFormatter()
+
+        self.validator = ExperienceValidator()
+
+        self.file_namer = ExperienceFileNamer()
 
         self.knowledge = KnowledgeManager(self.repository)
 
@@ -146,4 +154,21 @@ class Memory:
 
             self.get_build_history()
 
+        )
+
+    def save_experience(self, experience):
+
+        self.validator.validate(experience)
+
+        experience_id, filename = self.file_namer.next_filename(
+            self.diary_path
+        )
+
+        experience.id = experience_id
+
+        markdown = self.formatter.format(experience)
+
+        self.repository.save_document(
+            filename,
+            markdown
         )

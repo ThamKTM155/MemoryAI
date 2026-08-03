@@ -1,0 +1,21 @@
+{
+    "version": "1.0",
+
+    "sources": [
+
+        {
+            "name": "Diary Summary",
+            "path": "11_Diary_Summary/summaries",
+            "pattern": "*_summary.md",
+            "enabled": true
+        },
+
+        {
+            "name": "Project Documents",
+            "path": "docs",
+            "pattern": "*.md",
+            "enabled": true
+        }
+
+    ]
+}

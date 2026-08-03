@@ -1,0 +1,29 @@
+{
+  "relationships": [
+    {
+      "from": "GRAPH_RULES",
+      "to": "GRAPH_SCHEMA",
+      "relation": "RELATED_TO"
+    },
+    {
+      "from": "GRAPH_RULES",
+      "to": "GRAPH_DATA_MODEL",
+      "relation": "RELATED_TO"
+    },
+    {
+      "from": "GRAPH_SCHEMA",
+      "to": "GRAPH_DATA_MODEL",
+      "relation": "RELATED_TO"
+    },
+    {
+      "from": "GRAPH_CHANGELOG",
+      "to": "GRAPH_SCHEMA",
+      "relation": "RELATED_TO"
+    },
+    {
+      "from": "GRAPH_SOURCE_MAP",
+      "to": "GRAPH_SCHEMA",
+      "relation": "RELATED_TO"
+    }
+  ]
+}

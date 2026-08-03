@@ -30,3 +30,12 @@ class DiaryLoader:
                 print(f"[ERROR] {file.name}: {e}")
 
         return documents
+
+    def save_markdown(self, filename, content):
+
+        file_path = self.diary_path / filename
+
+        file_path.write_text(
+            content,
+            encoding="utf-8"
+        )

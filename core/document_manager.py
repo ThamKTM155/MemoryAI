@@ -43,3 +43,10 @@ class DocumentManager:
     def count(self):
 
         return len(self.documents)
+
+    def save_document(self, filename, content):
+
+        self.loader.save_markdown(
+            filename,
+            content
+        )

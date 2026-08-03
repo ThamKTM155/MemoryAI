@@ -160,3 +160,10 @@ class KnowledgeRepository:
                 doc["filename"]
 
             ] = doc
+
+    def save_document(self, filename, content):
+
+        self.document_manager.save_document(
+            filename,
+            content
+        )

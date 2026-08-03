@@ -6,8 +6,9 @@ Create and validate MemoryRecord objects.
 """
 
 import uuid
-
+from data_model.experience import Experience
 from data_model.memory_record import MemoryRecord
+
 class MemoryFactory:
     """Factory for creating MemoryRecord objects."""
     @staticmethod
@@ -29,3 +30,7 @@ class MemoryFactory:
             source=source,
         )
         return memory
+    @staticmethod
+    def create_experience(**kwargs):
+
+        return Experience(**kwargs)
