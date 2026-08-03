@@ -49,6 +49,44 @@ def parse_metadata(file_path):
             build = upper
 
             break
+
+    updated = None
+    status = None
+    version = None
+
+    if file_path.suffix.lower() == ".md":
+
+        with open(
+            file_path,
+            "r",
+            encoding="utf-8"
+        ) as f:
+
+            for line in f:
+
+                line = line.strip()
+
+                if line.startswith("Updated:"):
+
+                    updated = line.replace(
+                        "Updated:",
+                        ""
+                    ).strip()
+
+                elif line.startswith("Status:"):
+
+                    status = line.replace(
+                        "Status:",
+                        ""
+                    ).strip()
+
+                elif line.startswith("Version:"):
+
+                    version = line.replace(
+                        "Version:",
+                        ""
+                    ).strip()
+
     return {
 
         "id": file_path.stem,
@@ -66,6 +104,12 @@ def parse_metadata(file_path):
         "build": build,
 
         "date": date,
+
+        "updated": updated,
+
+        "status": status,
+
+        "version": version,
 
         "tags": [],
 

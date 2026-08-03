@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 
 from tools.graph_parser import parse_metadata
+from tools.graph_document_metadata import parse_document_metadata
 from tools.graph_edge_builder import create_edges
 from tools.graph_node_builder import create_node
 from tools.graph_entity_builder import create_entities
@@ -54,6 +55,10 @@ for source in sources:
     for file in files:
 
         metadata = parse_metadata(file)
+
+        document_metadata = parse_document_metadata(file)
+
+        metadata.update(document_metadata)
 
         node = create_node(metadata)
 
