@@ -1,3 +1,12 @@
+"""
+LEGACY COMPONENT
+
+Original Answer Pipeline
+Retained for historical reference.
+
+Retired during BUILD-70
+MemoryService Gateway Migration
+"""
 from service.graph_builder import GraphBuilder
 from service.relationship_builder import RelationshipBuilder
 

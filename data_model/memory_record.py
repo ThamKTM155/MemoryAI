@@ -31,6 +31,18 @@ class MemoryRecord:
 
     tags: List[str] = field(default_factory=list)
     relations: List[str] = field(default_factory=list)
+    
     def to_dict(self) -> Dict:
         """Convert MemoryRecord to dictionary."""
-        return asdict(self)
+
+        data = asdict(self)
+
+        data["created_at"] = (
+            self.created_at.isoformat()
+        )
+
+        data["updated_at"] = (
+            self.updated_at.isoformat()
+        )
+
+        return data

@@ -11,6 +11,8 @@ class KnowledgeRepository:
 
         self.documents = []
 
+        self.foundation_docs = []
+
         self.by_type = {}
 
         self.by_filename = {}
@@ -34,6 +36,8 @@ class KnowledgeRepository:
         self.document_manager.load()
 
         self.documents = self.document_manager.get_all()
+
+        self._load_foundation_docs()
 
         self._build_filename_index()
 
@@ -160,6 +164,49 @@ class KnowledgeRepository:
                 doc["filename"]
 
             ] = doc
+
+    def _load_foundation_docs(self):
+
+        from pathlib import Path
+
+        foundation_path = Path(
+            "D:/MemoryAI/00_Core"
+        )
+
+        self.foundation_docs = []
+
+        if not foundation_path.exists():
+            return
+
+        for file in foundation_path.glob("*.md"):
+
+            try:
+
+                content = file.read_text(
+                    encoding="utf-8"
+                )
+
+                self.foundation_docs.append({
+
+                    "filename": file.name,
+
+                    "path": str(file),
+
+                    "content": content,
+
+                    "type": "FOUNDATION"
+
+                })
+
+            except Exception as e:
+
+                print(
+                    f"[FOUNDATION ERROR] {file.name}: {e}"
+                )
+
+        self.documents.extend(
+            self.foundation_docs
+        )
 
     def save_document(self, filename, content):
 

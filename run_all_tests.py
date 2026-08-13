@@ -1,6 +1,36 @@
 import subprocess
 
 tests = [
+    
+    # =========================
+    # IDENTITY
+    # =========================
+
+    "tests.test_identity",
+
+    # =========================
+    # MEMORY GRAPH
+    # =========================
+
+    "tests.test_memory_graph_lookup",
+    "tests.test_memory_query_service",
+
+    # =========================
+    # QUESTION
+    # =========================
+
+    "tests.test_question_parser",
+    "tests.test_question_classifier",
+
+    # =========================
+    # PIPELINE
+    # =========================
+
+    "tests.test_memory_ask",
+    #"tests.test_answer_generator",
+    "tests.test_memory_chat",
+    "tests.test_intent_router",
+    "tests.test_intent_answer_generator",
 
     # ==================================================
     # DOCUMENT

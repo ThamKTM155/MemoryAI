@@ -1,5 +1,5 @@
 import os
-from tools.memory_search import search_memory
+from tools.memory_chat import chat
 MEMORY_FILE = (
     r"D:\MemoryAI\09_AI_Memory\memory_context.txt"
 )
@@ -7,13 +7,13 @@ MEMORY_FILE = (
 
 def ask_memory(query):
 
-    result = search_memory(query)
+    try:
 
-    if result:
+        return chat(query)
 
-        return result
+    except Exception as e:
 
-    return "Không tìm thấy thông tin liên quan."
+        return f"Lỗi MemoryAI: {e}"
 
 if __name__ == "__main__":
 
