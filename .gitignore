@@ -31,4 +31,8 @@ client_secret.json
 # Logs
 *.log
 # Personal diary
+
 05_Diary/
+museum/
+learning/
+HOCTHEM/
