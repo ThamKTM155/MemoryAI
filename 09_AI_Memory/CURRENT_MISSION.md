@@ -176,3 +176,8 @@ Nếu phải tạm dừng nhiều ngày hoặc nhiều tháng:
 Nguyên tắc:
 
 Luôn tiếp tục từ điểm dừng gần nhất để bảo đảm tiến độ và tính ổn định của toàn bộ hệ thống.
+Không tạo thêm một Memory Engine song song. Không phá Retrieval/Ranking hiện có. Chỉ đưa quyền truy cập Repository về đúng cổng MemoryService.
+một nhánh → một thay đổi → một test → PASS rồi mới sang nhánh kế tiếp. 🧠🔧
+Cái cần thống nhất là quyền sở hữu và đường vào kho trí nhớ chính, không phải cấm mọi thao tác kỹ thuật với Infrastructure.
+Chuyên môn xử lý dữ liệu, Service quản lý quyền truy cập dữ liệu.
+Không refactor cấu trúc, không thay đổi thuật toán, không cleanup dữ liệu.

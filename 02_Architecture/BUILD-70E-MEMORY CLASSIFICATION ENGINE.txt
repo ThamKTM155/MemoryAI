@@ -1,0 +1,106 @@
+
+BUILD-70E-MEMORY CLASSIFICATION ENGINE
+
+Mục tiêu:
+
+Từ:
+
+1065 memories
+
+→ biết:
+
+Cái nào là Core Memory
+Cái nào là Knowledge Memory
+Cái nào là Operational Memory
+Bước 1
+
+Mở rộng MemoryRecord
+
+Thêm trường:
+
+memory_class
+
+Ví dụ:
+
+{
+    "title": "SYSTEM CONSTITUTION",
+    "memory_class": "core"
+}
+{
+    "title": "THAMAI_ROLE",
+    "memory_class": "knowledge"
+}
+{
+    "title": "Top Video",
+    "memory_class": "operational"
+}
+Bước 2
+
+Tạo:
+
+service/memory_classification_engine.py
+
+V1 chỉ cần rule đơn giản:
+
+CORE_FILES = [
+    "SYSTEM CONSTITUTION",
+    "MEMORYAI MISSION",
+    "MEMORYAI VALUES",
+    "MEMORYAI PRINCIPLES",
+    "OWNER VISION"
+]
+KNOWLEDGE_FILES = [
+    "THAMAI ROLE",
+    "THAMAI COMPETENCY MATRIX",
+    "AUTOYOUTUBE FACTORY"
+]
+
+còn lại:
+
+operational
+Bước 3
+
+Khi Document Learning học tài liệu:
+
+00_Core
+
+gọi:
+
+classify_memory(...)
+
+rồi lưu:
+
+memory_class
+
+vào MemoryRecord.
+
+Bước 4
+
+Tạo script kiểm tra:
+
+tools/check_memory_classes.py
+
+In ra:
+
+CORE MEMORY: xx
+
+KNOWLEDGE MEMORY: xx
+
+OPERATIONAL MEMORY: xx
+Kết quả của BUILD-70E
+
+Lần đầu tiên MemoryAI sẽ biết:
+
+Cái gì tạo nên danh tính của nó
+Cái gì là tri thức của nó
+Cái gì là kinh nghiệm hoạt động của nó
+
+Đây là bước tự nhiên tiếp theo sau BUILD-70C và hoàn toàn phù hợp với:
+
+SYSTEM_CONSTITUTION
+MEMORYAI_MISSION
+BUILD-70D_CORE_MEMORY_IDENTIFICATION
+
+Xuất phát BUILD-70E được. 🚀🧠
+
+So sánh với Claude Opus 4.8

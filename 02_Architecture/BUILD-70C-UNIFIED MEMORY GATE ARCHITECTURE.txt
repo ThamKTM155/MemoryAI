@@ -1,0 +1,86 @@
+Date: 12-08-2026.
+
+Knowledge Gate
+↓
+MemoryService
+↓
+MemoryRepository
+
+---✅ Ban hành:
+
+BUILD-70C
+UNIFIED MEMORY GATE ARCHITECTURE
+
+✅ Thống nhất nguyên tắc:
+
+Mọi ghi nhớ phải đi qua MemoryService
+
+Không đơn vị nào sở hữu trí nhớ riêng
+
+Không ghi trực tiếp vào kho chung
+
+Không bắt đơn vị khác đi xin dữ liệu
+
+✅ Kiểm tra thực tế:
+
+WinnerAI
+→ ghi vào MemoryRepository
+
+Document Learning
+→ MemoryCenter
+→ MemoryService
+→ MemoryRepository
+
+✅ Học thành công:
+
+00_Core
+
+vào:
+
+memory_records.json
+
+và đã xuất hiện:
+
+SYSTEM CONSTITUTION
+MEMORYAI MISSION
+OWNER VISION
+...
+
+trong trí nhớ.
+
+Tuy nhiên còn một việc nhỏ nên ghi vào backlog BUILD-70C
+
+Hiện vẫn còn nhiều module đọc trực tiếp:
+
+MemoryRepository.load_all()
+
+Ví dụ:
+
+memory_query_engine.py
+memory_graph_engine.py
+memory_keyword_engine.py
+winner_memory_search.py
+...
+
+Đây là:
+
+READ BYPASS
+
+không phải:
+
+WRITE BYPASS
+
+Nguy hiểm thấp hơn rất nhiều.
+
+Có thể xử lý ở BUILD sau.
+
+Không cần chặn ngay.
+
+Vì vậy
+
+Tôi đánh giá:
+
+BUILD-70C
+≈ 90-95%
+
+Đủ điều kiện chuyển sang BUILD-70E.
