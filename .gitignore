@@ -36,3 +36,10 @@ client_secret.json
 museum/
 learning/
 HOCTHEM/
+
+# Local inspection tools
+check_*.py
+inspect_*.py
+
+# Runtime data
+data/
